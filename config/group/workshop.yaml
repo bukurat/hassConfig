@@ -1,0 +1,4 @@
+Workshop:
+  name: Workshop
+  entities:
+    switch.Workshop_power

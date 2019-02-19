@@ -1,0 +1,7 @@
+# comfort
+- platform: dht
+  sensor: AM2302
+  pin: 4
+  monitored_conditions:
+    - temperature
+    - humidity

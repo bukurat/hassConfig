@@ -1,0 +1,22 @@
+#cheap ebay LED flashed with AiLight firmware
+- platform: mqtt
+  schema:json
+  name: 'AiLight Office'
+  state_topic: 'Ailight01/state'
+  command_topic: 'AiLight01/set'
+  brightness: true
+  rgb: true
+  white_value: true
+  effect: false
+  optimistic: true
+  
+- platform: mqtt
+  schema:json
+  name: 'AiLight BNC'
+  state_topic: 'Ailight02/state'
+  command_topic: 'AiLight02/set'
+  brightness: true
+  rgb: true
+  white_value: true
+  effect: false
+  optimistic: true

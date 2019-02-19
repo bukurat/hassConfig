@@ -1,0 +1,10 @@
+#https://home-assistant.io/docs/configuration/customizing-devices/
+sensor.dht_sensor_temperature:
+  friendly_name: "Temperature"
+  homebridge_hidden: false
+
+sensor.dht_sensor_humidity:
+  friendly_name: "Humidity"
+  icon: mdi:water-percent
+  homebridge_hidden: false
+

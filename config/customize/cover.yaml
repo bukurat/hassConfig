@@ -1,0 +1,3 @@
+cover.test:
+  device_class: garage
+  friendly_name: John Garage

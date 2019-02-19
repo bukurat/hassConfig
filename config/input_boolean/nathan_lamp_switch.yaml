@@ -1,0 +1,5 @@
+nathan_lamp_switch:
+  name: Nathan's Lamp
+  initial: off
+  icon: mdi:lamp
+

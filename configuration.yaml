@@ -1,0 +1,136 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret latitude
+  longitude: !secret longitude
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 60
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  time_zone: !secret time_zone
+  # Customization file
+  customize: !include_dir_merge_named config/customize
+  packages: !include_dir_merge_named config/packages
+
+# Show links to resources in log and frontend
+#introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+#add MDI icons
+panel_iframe:
+  mdiindex:
+    title: MDI Icon Index
+    icon: mdi:vector-square
+    url: https://cdn.rawgit.com/james-fry/home-assistant-mdi/efd95d7a/home-assistant-mdi.html
+
+http:
+  # Secrets are defined in the file secrets.yaml
+  # api_password: !secret http_password
+  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+  # base_url: example.duckdns.org:8123
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+#updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+discovery:
+  ignore:
+    - apple_tv
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+#conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+#set log level
+logger:
+  default: warning
+
+# Tracked history is kept for 10 days
+recorder:
+  purge_keep_days: 10
+
+# View all events in a logbook
+logbook:
+
+# Enables a map showing the location of tracked devices
+map:
+
+# Track the sun
+sun:
+
+# Text to speech
+tts:
+  - platform: google
+
+# Cloud
+#cloud:
+
+# ios component
+ios:
+
+
+#Add Homekit component
+homekit:
+  filter:
+    include_domains:
+      - light
+      - switch
+      - DoorLock
+  pincode: !secret homekit_pin
+
+#Ring doorbell
+ring:
+  username: !secret ring_username
+  password: !secret ring_password
+
+#System Health
+system_health:
+
+mqtt:
+  broker: localhost
+  port: 1883
+  client_id: home-assistant-1
+  keepalive: 60
+  username: !secret mqtt_User
+  password: !secret mqtt_Pass
+  protocol: 3.1
+  birth_message:
+    topic: "tele/hass1/LWT"
+    payload: "Online"
+    qos: 1
+    retain: true
+  will_message:
+    topic: "tele/hass1/LWT"
+    payload: "Offline"
+    qos: 1
+    retain: true
+#duckdns:
+#  domain: !secret duckdns_domain
+#  access_token: !secret duckdns_token
+#Components
+automation: !include_dir_merge_list config/automation
+binary_sensor: !include_dir_merge_list config/binary_sensor
+climate: !include_dir_merge_list config/climate
+group: !include_dir_merge_named config/group
+input_boolean: !include_dir_merge_named config/input_boolean
+light: !include_dir_merge_list config/light
+media_player: !include_dir_merge_list config/media_player
+scene: !include_dir_merge_list config/scene
+script: !include_dir_merge_named config/script
+sensor: !include_dir_merge_list config/sensor
+switch: !include_dir_merge_list config/switch
+weather: !include_dir_merge_list config/weather
+

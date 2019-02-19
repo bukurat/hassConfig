@@ -1,0 +1,3 @@
+input_boolean.front_door_lock:
+  homebridge_name: FD Lock
+  homebridge_hidden: false

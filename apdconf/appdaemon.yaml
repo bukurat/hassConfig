@@ -1,0 +1,24 @@
+log:
+  logfile: /home/homeassistant/logs/appdaemon.log
+  errorfile: /home/homeassistant/logs/appdaemon.err
+  accessfile: /home/homeassistant/logs/dash_access
+  logsize: 100000
+  log_generations: 3
+appdaemon:
+  threads: 10
+  api_port: 5000
+  latitude: !secret latitude
+  longitude: !secret longitude
+  time_zone: !secret time_zone
+  elevation: 60
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  plugins:
+    HASS:
+      type: hass
+      token: !secret token
+      ha_url: http://localhost:8123
+
+hadashboard:
+  dash_url: http://localhost:5050
+

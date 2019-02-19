@@ -1,0 +1,4 @@
+switch.Power:
+  friendly_name: "Reading Lamp"
+  homebridge_hidden: false
+  icon: mdi:lamp

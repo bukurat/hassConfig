@@ -1,0 +1,4 @@
+bedroom_main:
+  name: Main Bedroom
+  entities:
+    light.AiLight_BNC

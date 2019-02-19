@@ -1,0 +1,11 @@
+# workshop power
+- platform: mqtt
+  name: Workshop power
+  state_topic: "stat/sonoffs20-1/POWER"
+  command_topic: "cmnd/sonoffs20-1/POWER"
+  availability_topic: "tele/sonoffs20-1/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"

@@ -1,0 +1,19 @@
+#Prospect Reservior
+#- platform: bom
+#  station: IDN60901.94736
+#  name: Prospect Dam
+#  monitored_conditions:
+#  - apparent_t
+#  - cloud
+#  - cloud_oktas
+#  - delta_t
+#  - air_temp
+#  - dewpt
+#  - press
+#  - rain_trace
+#  - rel_hum
+#  - vis_km
+#  - weather
+#  - wind_dir
+#  - wind_spd_kmh
+#  - wind_spd_kt

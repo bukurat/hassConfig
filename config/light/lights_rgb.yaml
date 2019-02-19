@@ -1,0 +1,63 @@
+#Arilux LC-01 Module with Tasmota
+- platform: mqtt
+  name: Lounge Curtain Light
+  effect_list:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+
+  state_topic: "cmnd/sonoffrgb1/POWER"
+  command_topic: "cmnd/sonoffrgb1/POWER"
+  brightness_state_topic: "cmnd/sonoffrgb1/Dimmer"
+  brightness_command_topic: "cmnd/sonoffrgb1/Dimmer"
+  brightness_scale: 100
+  rgb_command_template: "{{ '%02x%02x%02x' | format(red, green, blue)}}"
+  rgb_state_topic: "cmnd/sonoffrgb1/Color"
+  rgb_command_topic: "cmnd/sonoffrgb1/Color"
+  availability_topic: "tele/sonoffrgb1/LWT"
+  effect_command_topic: "cmnd/sonoffrgb1/Scheme"
+  effect_state_topic: "cmnd/sonoffrgb1/Scheme"
+  state_value_template: "{{ value }}"
+  brightness_value_template: "{{ value }}"
+  effect_value_template: "{{ value }}"
+#  rgb_command_mode: hex
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+
+#Arilux LC-01 Module with Tasmota
+- platform: mqtt
+  name: Test lamp
+  effect_list:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+
+  state_topic: "cmnd/sonoffrgb2/POWER"
+  command_topic: "cmnd/sonoffrgb2/POWER"
+  brightness_state_topic: "cmnd/sonoffrgb2/Dimmer"
+  brightness_command_topic: "cmnd/sonoffrgb2/Dimmer"
+  brightness_scale: 100
+  rgb_command_template: "{{ '%02x%02x%02x' | format(red, green, blue)}}"
+  rgb_state_topic: "cmnd/sonoffrgb2/Color"
+  rgb_command_topic: "cmnd/sonoffrgb2/Color"
+  availability_topic: "tele/sonoffrgb2/LWT"
+  effect_command_topic: "cmnd/sonoffrgb2/Scheme"
+  effect_state_topic: "cmnd/sonoffrgb12/Scheme"
+  state_value_template: "{{ value }}"
+  brightness_value_template: "{{ value }}"
+  effect_value_template: "{{ value }}"
+#  rgb_command_mode: hex
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"

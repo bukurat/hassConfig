@@ -1,0 +1,34 @@
+# Loungeroom Salt Lamp
+- platform: mqtt
+  name: Salt Lamp
+  state_topic: "stat/sonoff01/POWER"
+  command_topic: "cmnd/sonoff01/POWER"
+  availability_topic: "tele/sonoff01/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+
+# Bar Light 
+- platform: mqtt
+  name: Bar Light
+  state_topic: "stat/Bar_Light/POWER"
+  command_topic: "cmnd/Bar_Light/POWER"
+  availability_topic: "tele/Bar_Light/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+# Reading Light 
+- platform: mqtt
+  name: Reading Light
+  state_topic: "stat/sonoff4/POWER"
+  command_topic: "cmnd/sonoff4/POWER"
+  availability_topic: "tele/sonoff4/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"

@@ -1,0 +1,5 @@
+Bedroom_2:
+  name: Nathan's Room
+  icon: mdi:hotel
+  entities:
+    input_boolean.nathan_lamp_switch

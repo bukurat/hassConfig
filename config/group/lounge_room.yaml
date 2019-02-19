@@ -1,0 +1,22 @@
+lounge_room_activities:
+  name: Lounge Room
+  icon: mdi:sofa
+  entities:
+  - group.lounge_room_entertainment
+  - group.lounge_room_lights
+  - input_boolean.front_door_lock
+
+lounge_room_lights:
+  name: Lights
+  icon: mdi:lightbulb
+  entities:
+    - light.Salt_Lamp
+    - light.Lounge_Curtain_Light
+
+lounge_room_entertainment:
+  name: Entertainment
+  icon: mdi:television
+  entities:
+#    - media_player.loungeroom_ua55es7500
+#    - media_player.rxv500d_a0988a
+

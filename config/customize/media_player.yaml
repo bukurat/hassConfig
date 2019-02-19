@@ -1,0 +1,8 @@
+media_player.apple_tv:
+  friendly_name: "Apple TV"
+
+media_player.rxv500d_a0988a:
+  friendly_name: "Yahama Amplifier"
+
+media_player.loungeroom_ua55es7500:
+  friendly_name: "Lounge TV"

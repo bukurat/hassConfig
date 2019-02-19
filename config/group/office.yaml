@@ -1,0 +1,5 @@
+Office:
+  name: Office
+  icon: mdi:domain
+  entities:
+    input_boolean.rf_switch2_switch

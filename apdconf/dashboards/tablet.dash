@@ -1,0 +1,49 @@
+##
+## Main arguments, all optional
+##
+title: Tablet Panel
+widget_dimensions: [120, 120]
+widget_size: [1, 1]
+widget_margins: [5, 5]
+columns: 8
+global_parameters:
+  use_comma: 0
+  precision: 1
+  use_hass_icon: 1
+clock:
+  widget_type: clock
+  widget_style: "font-size: 200%; background:blue;"
+  time_style: "color: yellow;"
+  date_style: "color: red;"
+dht_sensor_temperature:
+  widget_type: sensor
+  entity: sensor.dht_sensor_temperature
+  title: Computer Room Temperature
+dht_sensor_humidity:
+  widget_type: sensor
+  entity: sensor.dht_sensor_humidity
+  title: Computer Room Humidity
+reload:
+  widget_type: reload 
+  title: Reload
+  icon_active: fa-refresh
+  icon_inactive: fa-refresh
+salt_lamp:
+  widget_type: light
+  title: Salt Lamp
+  icon: mdi-lamp
+bar_light:
+  widget_type: switch
+  icon: mdi-white-balance-iridescent
+  Title: Bar Light
+cpu_temp:
+  widget_type: sensor
+  entity: sensor.cpu_temp
+  icon: mdi-raspberrypi
+  
+layout:
+  - clock.clock (2x1),dht_sensor_temperature, dht_sensor_humidity, sensor.load_1m, sensor.disk_free, sensor.cpu_temp
+  - spacer (2x1), input_boolean.front_door_lock,light.salt_lamp, light.lounge_curtain_light
+  - input_boolean.nathan_lamp_switch, light.bar_light, light.reading_light, switch.christmas_tree, switch.workshop_power
+  - 
+  - reload

@@ -1,0 +1,4 @@
+rf_switch2_switch:
+  name: Rf switch 2
+  initial: off
+  icon: mdi:switch
