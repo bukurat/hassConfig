@@ -1,0 +1,8 @@
+title: sensors
+path: 25_sensors_view
+
+cards:
+  - type: glance
+    entities:
+      - binary_sensor.office_window
+      - binary_sensor.hall_motion

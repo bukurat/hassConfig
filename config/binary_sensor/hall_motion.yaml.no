@@ -1,7 +1,0 @@
-- platform: mqtt
-  name: Hall Motion
-  payload_on: "D3276E"
-  payload_off: "D3276Eoff"
-  sensor_class: motion
-  state_topic: "sonoffbr/tele/RESULT"
-  value_template: '{{ value_json.RfReceived.Data }}'

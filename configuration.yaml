@@ -120,6 +120,13 @@ mqtt:
 #duckdns:
 #  domain: !secret duckdns_domain
 #  access_token: !secret duckdns_token
+
+#GUI
+
+lovelace:
+  mode: yaml
+
+
 #Components
 automation: !include_dir_merge_list config/automation
 binary_sensor: !include_dir_merge_list config/binary_sensor

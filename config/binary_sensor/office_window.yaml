@@ -1,0 +1,8 @@
+- platform: mqtt
+  name: Office Window
+  payload_on: "8B460A"
+  payload_off: "8B460E"
+  device_class: window
+  state_topic: "sonoffbr/tele/RESULT"
+  value_template: '{{ value_json.RfReceived.Data }}'
+  qos: 1

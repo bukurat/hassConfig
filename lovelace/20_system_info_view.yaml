@@ -1,0 +1,33 @@
+
+title: Info
+icon: mdi:server
+path: 20_system_info_view
+#panel: true
+cards:
+  -  type: sensor
+     entity: sensor.disk_free
+  -  type: sensor
+     entity: sensor.load_1m
+  -  type: sensor
+     entity: sensor.network_in_eth0
+     icon: mdi:lan
+  -  type: sensor
+     entity: sensor.network_out_eth0
+     icon: mdi:lan
+
+
+  - type: sensor
+    entity: sensor.cpu_temp
+    name: CPU Temp
+    graph: line
+
+  - type: history-graph
+    entities:
+      - entity: sensor.cpu_temp
+        name: CPU Temperature
+
+      - entity: sensor.dht_sensor_temperature
+        name: Room Temperature
+        
+    detail: 2
+    hours_to_show: 12

@@ -1,15 +1,15 @@
 #turn off hall motion sensor after 5 sec
-- alias: Turn off hall motion
-  hide_entity: true
-  trigger:
-    platform: state
-    entity_id: binary_sensor.hall_motion
-    to: 'on'
-    for:
-      seconds: 5
-  action:
-    service: mqtt.publish
-    data:
-      topic: "sonoffbr/tele/RESULT"
-      payload: "D3276Eoff"
-      retain: "true"
+# - alias: Turn off hall motion
+#   hide_entity: true
+#   trigger:
+#     platform: state
+#     entity_id: binary_sensor.hall_motion
+#     to: 'on'
+#     for:
+#       seconds: 5
+#   action:
+#     service: mqtt.publish
+#     data:
+#       topic: "sonoffbr/tele/RESULT"
+#       payload: "D3276Eoff"
+      # retain: "true"

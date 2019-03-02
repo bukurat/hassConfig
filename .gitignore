@@ -26,3 +26,5 @@ phue.conf
 ios.conf
 ipchange.yaml
 production_auth.json
+.homekit.state
+.vscode

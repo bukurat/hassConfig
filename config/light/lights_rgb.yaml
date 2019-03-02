@@ -8,17 +8,17 @@
       - 3
       - 4
 
-  state_topic: "cmnd/sonoffrgb1/POWER"
+  state_topic: "stat/sonoffrgb1/POWER"
   command_topic: "cmnd/sonoffrgb1/POWER"
-  brightness_state_topic: "cmnd/sonoffrgb1/Dimmer"
+  brightness_state_topic: "stat/sonoffrgb1/Dimmer"
   brightness_command_topic: "cmnd/sonoffrgb1/Dimmer"
   brightness_scale: 100
   rgb_command_template: "{{ '%02x%02x%02x' | format(red, green, blue)}}"
-  rgb_state_topic: "cmnd/sonoffrgb1/Color"
+  rgb_state_topic: "stat/sonoffrgb1/Color"
   rgb_command_topic: "cmnd/sonoffrgb1/Color"
   availability_topic: "tele/sonoffrgb1/LWT"
   effect_command_topic: "cmnd/sonoffrgb1/Scheme"
-  effect_state_topic: "cmnd/sonoffrgb1/Scheme"
+  effect_state_topic: "stat/sonoffrgb1/Scheme"
   state_value_template: "{{ value }}"
   brightness_value_template: "{{ value }}"
   effect_value_template: "{{ value }}"
@@ -41,17 +41,17 @@
       - 5
       - 6
 
-  state_topic: "cmnd/sonoffrgb2/POWER"
+  state_topic: "stat/sonoffrgb2/POWER"
   command_topic: "cmnd/sonoffrgb2/POWER"
-  brightness_state_topic: "cmnd/sonoffrgb2/Dimmer"
+  brightness_state_topic: "stat/sonoffrgb2/Dimmer"
   brightness_command_topic: "cmnd/sonoffrgb2/Dimmer"
   brightness_scale: 100
   rgb_command_template: "{{ '%02x%02x%02x' | format(red, green, blue)}}"
-  rgb_state_topic: "cmnd/sonoffrgb2/Color"
+  rgb_state_topic: "stat/sonoffrgb2/Color"
   rgb_command_topic: "cmnd/sonoffrgb2/Color"
   availability_topic: "tele/sonoffrgb2/LWT"
   effect_command_topic: "cmnd/sonoffrgb2/Scheme"
-  effect_state_topic: "cmnd/sonoffrgb12/Scheme"
+  effect_state_topic: "stat/sonoffrgb12/Scheme"
   state_value_template: "{{ value }}"
   brightness_value_template: "{{ value }}"
   effect_value_template: "{{ value }}"
@@ -61,3 +61,56 @@
   payload_off: "OFF"
   payload_available: "Online"
   payload_not_available: "Offline"
+
+# ARILUX lamps from Bangbood
+- platform: mqtt
+  name: Bedroom 2 Lamp1
+  state_topic: "stat/ailight03/POWER"
+  command_topic: "cmnd/ailight03/POWER"
+  brightness_state_topic: "stat/alight03/Dimmer"
+  brightness_value_template: "{{ value_json.brightness }}"
+  brightness_scale: 100
+  rgb_state_topic: "stat/ailight03/Color"
+  rgb_command_topic: "cmnd/ailight03/Color"
+  rgb_command_template: "{{ '%02x%02x%02x00' | format(red, green, blue)}}"
+  availability_topic: "tele/ailight03/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"  
+
+- platform: mqtt
+  name: Bedroom 2 lamp2
+  state_topic: "stat/ailight04/POWER"
+  command_topic: "cmnd/ailight04/POWER"
+  brightness_state_topic: "stat/alight04/Dimmer"
+  brightness_value_template: "{{ value_json.brightness }}"
+  brightness_scale: 100
+  rgb_state_topic: "stat/ailight04/Color"
+  rgb_command_topic: "cmnd/ailight04/Color"
+  rgb_command_template: "{{ '%02x%02x%02x00' | format(red, green, blue)}}"
+  availability_topic: "tele/ailight04/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"  
+
+- platform: mqtt
+  name: office desk lamp
+  state_topic: "stat/ailight06/POWER"
+  command_topic: "cmnd/ailight06/POWER"
+  brightness_state_topic: "stat/alight06/Dimmer"
+ #brightness_command_topic: "cmnd/alight06/Dimmer"
+  brightness_value_template: "{{ value_json.brightness }}"
+  brightness_scale: 100
+  rgb_state_topic: "stat/ailight06/Color"
+  rgb_command_topic: "cmnd/ailight06/Color"
+  rgb_command_template: "{{ '%02x%02x%02x00' | format(red, green, blue)}}"
+  availability_topic: "tele/ailight06/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"  

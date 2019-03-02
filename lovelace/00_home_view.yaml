@@ -1,0 +1,42 @@
+title: main
+icon: mdi:home-outline
+cards:
+  - type: glance
+    title: Lights
+    show_name: true
+    show_state: false
+    entities:
+      - entity: light.salt_lamp
+        name: Salt Lamp
+        icon: mdi:desk-lamp
+        tap_action:
+          action: toggle
+      - entity: light.lounge_curtain_light
+        name: Lounge Window
+      - entity: light.bar_light
+        icon: mdi:glass-cocktail
+        tap_action:
+           action: toggle      
+      - entity: light.bedroom_2_lamp1
+        icon: mdi:ceiling-light
+      - entity: light.bedroom_2_lamp2
+        icon: mdi:ceiling-light
+      - entity: light.office_desk_lamp
+        name: Office desk-lamp
+        icon: mdi:desk-lamp
+        tap_action:
+           action: toggle        
+      - entity: light.cupboard_lamps
+        tap_action:
+           action: toggle      
+      - entity: light.reading_light
+        icon: mdi:book-open-variant
+        tap_action:
+           action: toggle
+  - type: entities
+    title: example
+    entities:
+      - light.cupboard_lamps
+      - light.reading_light
+      - switch.switch_c
+ 

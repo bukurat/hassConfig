@@ -1,0 +1,5 @@
+- platform: pi_hole
+  host: 192.168.19.8
+  monitored_conditions:
+    ads_blocked_today
+  
