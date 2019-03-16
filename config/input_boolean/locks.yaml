@@ -1,3 +1,4 @@
 front_door_lock:
-  name: Front Door Locked
-  icon: mdi:lock
+  name: Dummy Lock Switch
+  icon: mdi:Door
+  initial: off

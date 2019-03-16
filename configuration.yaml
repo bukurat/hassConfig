@@ -89,6 +89,7 @@ homekit:
       - light
       - switch
       - DoorLock
+      - input_boolean
   pincode: !secret homekit_pin
 
 #Ring doorbell

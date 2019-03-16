@@ -1,0 +1,17 @@
+- alias: 'Turn on salt lamp'
+  initial_state: true
+  trigger:
+    platform: time
+    at: '09:00:00'
+  action:
+   service: homeassistant.turn_on
+   entity_id: light.salt_lamp
+
+- alias: 'Turn off salt lamp'
+  initial_state: true
+  trigger:
+    platform: time
+    at: '23:00:00'
+  action:
+    service: homeassistant.turn_off
+    entity_id: light.salt_lamp

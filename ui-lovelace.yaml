@@ -4,7 +4,10 @@ resources:
     type: js
   - url: /local/custom-lovelace/card-modder.js?v=1
     type: js
+  - url: /local/custom-lovelace/monster-card.js?v=1
+    type: js
 views:
 - !include lovelace/00_home_view.yaml
 - !include lovelace/20_system_info_view.yaml
 - !include lovelace/25_sensors_view.yaml
+- !include lovelace/30_automations_view.yaml
