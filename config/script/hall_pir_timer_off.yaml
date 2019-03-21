@@ -1,9 +1,0 @@
-- hall_pir_timer_off:
-    alias: "Turn off hall motion"
-    sequence:
-      - delay:
-          minutes: 1
-      - service: mqtt.publish
-        data:
-          topic: 'sonoffbr/tele/RESULT'
-          payload: 'D3276Eoff'

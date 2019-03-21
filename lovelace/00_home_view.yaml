@@ -17,9 +17,9 @@ cards:
         icon: mdi:glass-cocktail
         tap_action:
            action: toggle      
-      - entity: light.bedroom_2_lamp1
+      - entity: light.bedroom_3_lamp1
         icon: mdi:ceiling-light
-      - entity: light.bedroom_2_lamp2
+      - entity: light.bedroom_3_lamp2
         icon: mdi:ceiling-light
       - entity: light.office_desk_lamp
         name: Office desk-lamp
@@ -33,10 +33,14 @@ cards:
         icon: mdi:book-open-variant
         tap_action:
            action: toggle
+      - entity: light.headboard_light
+        icon: mdi:hotel
+        tap_action:
+           action: toggle
   - type: entities
     title: example
     entities:
       - light.cupboard_lamps
       - light.reading_light
-      - switch.switch_c
+      - light.headboard_light
  

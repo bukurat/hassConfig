@@ -11,15 +11,40 @@
     - type: load_5m
     - type: load_15m
     - type: network_in
-      arg: eth0
+      arg: wlp1s0
     - type: network_out
-      arg: eth0
+      arg: wlp1s0
+
+
+# not sure if this is correct at this stage 
+# $  cat /sys/devices/virtual/thermal/thermal_zone?/temp lists 4 thermal zones
+# on a LENOVO 20324/IdeaPad Flex10, BIOS 93CN54WW 10/09/2014 
+#CPU0: Intel(R) Pentium(R) CPU  N3530  @ 2.16GHz 
 
 - platform: command_line
-  name: CPU Temp
-  command: "cat /sys/class/thermal/thermal_zone0/temp"
+  name: Core0 Temp
+  command: "/usr/bin/sensors|grep 'Core 0'|cut -c16-19"
   unit_of_measurement: "°C"
-  value_template: '{{ value | multiply(0.001) }}'
-  icon: mdi:raspberrypi
+  value_template: '{{ value}}'
+
+- platform: command_line
+  name: Core1 Temp
+  command: "/usr/bin/sensors|grep 'Core 1'|cut -c16-19"
+  unit_of_measurement: "°C"
+  value_template: '{{ value}}'
+
+- platform: command_line
+  name: Core2 Temp
+  command: "/usr/bin/sensors|grep 'Core 2'|cut -c16-19"
+  unit_of_measurement: "°C"
+  value_template: '{{ value}}'
+
+- platform: command_line
+  name: Core3 Temp
+  command: "/usr/bin/sensors|grep 'Core 3'|cut -c16-19"
+  unit_of_measurement: "°C"
+  value_template: '{{ value}}'
 
 - platform: cpuspeed
+- platform: linux_battery
+

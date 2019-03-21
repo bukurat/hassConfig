@@ -64,7 +64,7 @@
 
 # ARILUX lamps from Bangbood
 - platform: mqtt
-  name: Bedroom 2 Lamp1
+  name: Bedroom 3 Lamp1
   state_topic: "stat/ailight03/POWER"
   command_topic: "cmnd/ailight03/POWER"
   brightness_state_topic: "stat/alight03/Dimmer"
@@ -81,7 +81,7 @@
   payload_not_available: "Offline"  
 
 - platform: mqtt
-  name: Bedroom 2 lamp2
+  name: Bedroom 3 lamp2
   state_topic: "stat/ailight04/POWER"
   command_topic: "cmnd/ailight04/POWER"
   brightness_state_topic: "stat/alight04/Dimmer"

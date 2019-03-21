@@ -1,0 +1,763 @@
+2019-03-16 19:41:28.830076 INFO AppDaemon Version 3.0.2 starting
+2019-03-16 19:41:28.830545 INFO Configuration read from: /home/homeassistant/.homeassistant/apdconf/appdaemon.yaml
+2019-03-16 19:41:28.834011 INFO AppDaemon: Starting Apps
+2019-03-16 19:41:28.835077 WARNING config_dir: /home exists, but is not writeable, owner: root
+2019-03-16 19:41:28.845803 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2019-03-16 19:41:29.216006 INFO AppDaemon: HASS: HASS Plugin Initializing
+2019-03-16 19:41:29.218154 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2019-03-16 19:41:29.219683 INFO Starting Dashboards
+2019-03-16 19:41:29.266561 INFO Starting API
+2019-03-16 19:41:29.300371 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.1
+2019-03-16 19:41:29.420802 INFO AppDaemon: Got initial state from namespace default
+2019-03-16 19:41:31.408909 INFO AppDaemon: Reading config
+2019-03-16 19:41:31.414875 INFO AppDaemon: /home/homeassistant/.homeassistant/apdconf/apps/apps.yaml added or modified
+2019-03-16 19:41:31.415263 INFO AppDaemon: /home/homeassistant/.homeassistant/apdconf/apps/apps.yaml added or modified
+2019-03-16 19:41:31.415535 INFO AppDaemon: App 'hello_world' added
+2019-03-16 19:41:31.415963 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/apdconf/apps to module import path
+2019-03-16 19:41:31.416676 INFO AppDaemon: Loading App Module: /home/homeassistant/.homeassistant/apdconf/apps/hello.py
+2019-03-16 19:41:31.431292 INFO AppDaemon: Initializing app hello_world using class HelloWorld from module hello
+2019-03-16 19:41:31.550224 INFO hello_world: Hello from AppDaemon
+2019-03-16 19:41:31.551885 INFO hello_world: You are now ready to run Apps!
+2019-03-16 19:41:31.552869 INFO AppDaemon: App initialization complete
+2019-03-17 11:08:22.007940 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 11:08:27.009947 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 11:08:32.011679 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 11:08:37.013846 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 11:08:42.026997 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.1
+2019-03-17 11:08:42.097404 INFO AppDaemon: Processing restart for HASS
+2019-03-17 11:08:42.098188 INFO AppDaemon: Terminating hello_world
+2019-03-17 11:08:42.099164 INFO AppDaemon: Initializing app hello_world using class HelloWorld from module hello
+2019-03-17 11:08:42.103251 INFO hello_world: Hello from AppDaemon
+2019-03-17 11:08:42.105126 INFO hello_world: You are now ready to run Apps!
+2019-03-17 11:39:44.765399 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 11:39:49.768900 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 11:39:54.771408 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 11:39:59.775015 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 11:40:04.778116 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 11:40:09.798631 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.1
+2019-03-17 11:40:09.839596 INFO AppDaemon: Processing restart for HASS
+2019-03-17 11:40:09.840861 INFO AppDaemon: Terminating hello_world
+2019-03-17 11:40:09.842109 INFO AppDaemon: Initializing app hello_world using class HelloWorld from module hello
+2019-03-17 11:40:09.847890 INFO hello_world: Hello from AppDaemon
+2019-03-17 11:40:09.851649 INFO hello_world: You are now ready to run Apps!
+2019-03-17 13:55:24.528089 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 13:55:29.533249 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 13:55:34.539105 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 13:55:39.542395 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 13:55:44.582645 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.1
+2019-03-17 13:55:44.706440 INFO AppDaemon: Processing restart for HASS
+2019-03-17 13:55:44.706919 INFO AppDaemon: Terminating hello_world
+2019-03-17 13:55:44.707586 INFO AppDaemon: Initializing app hello_world using class HelloWorld from module hello
+2019-03-17 13:55:44.709437 INFO hello_world: Hello from AppDaemon
+2019-03-17 13:55:44.711053 INFO hello_world: You are now ready to run Apps!
+2019-03-17 14:03:42.716653 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 14:03:47.720022 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 14:03:52.722912 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 14:03:57.725895 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 14:04:02.747139 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.1
+2019-03-17 14:04:02.809253 INFO AppDaemon: Processing restart for HASS
+2019-03-17 14:04:02.810401 INFO AppDaemon: Terminating hello_world
+2019-03-17 14:04:02.811601 INFO AppDaemon: Initializing app hello_world using class HelloWorld from module hello
+2019-03-17 14:04:02.818004 INFO hello_world: Hello from AppDaemon
+2019-03-17 14:04:02.823732 INFO hello_world: You are now ready to run Apps!
+2019-03-17 15:00:39.445505 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 15:00:44.451019 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 15:00:49.456723 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 15:00:54.462191 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 15:00:59.465238 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 15:01:04.479258 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.1
+2019-03-17 15:01:04.512736 INFO AppDaemon: Processing restart for HASS
+2019-03-17 15:01:04.513325 INFO AppDaemon: Terminating hello_world
+2019-03-17 15:01:04.513992 INFO AppDaemon: Initializing app hello_world using class HelloWorld from module hello
+2019-03-17 15:01:04.517695 INFO hello_world: Hello from AppDaemon
+2019-03-17 15:01:04.521321 INFO hello_world: You are now ready to run Apps!
+2019-03-17 15:05:22.847971 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 15:05:27.850565 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 15:05:32.856251 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 15:05:37.861987 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 15:05:42.865547 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 15:05:47.884239 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.1
+2019-03-17 15:05:47.987977 INFO AppDaemon: Processing restart for HASS
+2019-03-17 15:05:47.988329 INFO AppDaemon: Terminating hello_world
+2019-03-17 15:05:47.988661 INFO AppDaemon: Initializing app hello_world using class HelloWorld from module hello
+2019-03-17 15:05:47.990346 INFO hello_world: Hello from AppDaemon
+2019-03-17 15:05:47.991934 INFO hello_world: You are now ready to run Apps!
+2019-03-17 16:47:54.076934 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:47:59.082335 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:48:04.087211 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:48:09.093353 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:48:14.099269 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:48:19.104921 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:48:24.110286 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:48:29.115404 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:48:34.120428 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:48:39.125931 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:48:44.131193 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:48:49.136815 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:48:54.142573 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:48:59.147854 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:49:04.154138 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:49:09.159747 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:49:14.165145 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:49:19.170456 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:49:24.175897 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:49:29.181228 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:49:34.186778 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:49:39.192186 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:49:44.196725 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:49:49.201523 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:49:54.206540 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:49:59.212631 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:50:04.218961 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:50:09.224629 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:50:14.230748 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:50:19.235909 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:50:24.241257 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:50:29.247351 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:50:34.252313 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:50:39.258270 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:50:44.263719 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:50:49.268950 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:50:54.274597 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:50:59.280066 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:51:04.285672 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:51:09.290927 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:51:14.298063 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:51:19.303390 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:51:24.308989 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:51:29.314360 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:51:34.319933 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:51:39.325333 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:51:44.330122 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:51:49.335926 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:51:54.339068 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:51:59.341790 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:52:04.346410 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:52:09.352219 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:52:14.358606 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:52:19.362104 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:52:24.364334 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:52:29.366459 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:52:34.371936 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:52:39.374837 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:52:44.379886 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:52:49.385625 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:52:54.391821 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:52:59.397323 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:53:04.400278 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:53:09.402900 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:53:14.405471 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:53:19.410616 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:53:24.415039 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:53:29.419921 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:53:34.425720 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:53:39.430223 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:53:44.435967 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:53:49.441444 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:53:54.447513 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:53:59.452952 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:54:04.457212 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:54:09.460710 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:54:14.465752 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:54:19.471143 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:54:24.476245 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:54:29.480531 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:54:34.484510 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:54:39.487536 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:54:44.492823 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:54:49.498759 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:54:54.504041 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:54:59.507392 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:55:04.509887 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:55:09.512078 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:55:14.517964 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:55:19.520290 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:55:24.525550 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:55:29.528230 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:55:34.531080 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:55:39.536607 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:55:44.542529 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:55:49.548554 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:55:54.554887 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:55:59.558628 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:56:04.563100 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:56:09.567287 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:56:14.570250 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:56:19.575475 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:56:24.581294 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:56:29.586546 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:56:34.592327 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:56:39.598058 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:56:44.604308 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:56:49.609479 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:56:54.615101 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:56:59.620281 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:57:04.624605 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:57:09.629378 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:57:14.634471 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:57:19.639960 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:57:24.645858 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:57:29.649640 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:57:34.651475 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:57:39.653328 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:57:44.655706 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:57:49.657958 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:57:54.660906 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:57:59.664326 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:58:04.667728 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:58:09.670481 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:58:14.673144 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:58:19.676005 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:58:24.678451 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:58:29.681522 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:58:34.687262 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:58:39.693519 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:58:44.699629 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:58:49.706278 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:58:54.712064 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:58:59.719582 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:59:04.726029 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:59:09.731673 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:59:14.738352 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:59:19.744130 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:59:24.749852 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:59:29.755478 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:59:34.761946 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:59:39.767803 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:59:44.773839 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:59:49.779875 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:59:54.785595 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 16:59:59.790941 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:00:04.796253 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:00:09.803190 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:00:14.805847 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:00:19.810474 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:00:24.816425 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:00:29.819650 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:00:34.823848 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:00:39.829966 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:00:44.834980 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:00:49.840676 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:00:54.844835 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:00:59.849983 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:01:04.853104 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:01:09.855704 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:01:14.858635 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:01:19.860635 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:01:24.863472 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:01:29.865786 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:01:34.871484 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:01:39.875245 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:01:44.878050 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:01:49.880898 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:01:54.886375 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:01:59.891740 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:02:04.898680 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:02:09.902627 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:02:14.905430 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:02:19.910718 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:02:24.913891 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:02:29.919693 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:02:34.926031 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:02:39.932074 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:02:44.939243 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:02:49.944742 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:02:54.948707 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:02:59.951282 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:03:04.956166 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:03:09.962008 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:03:14.965761 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:03:19.971414 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:03:24.973872 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:03:29.979121 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:03:34.982997 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:03:39.988036 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:03:44.992159 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:03:49.994748 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:03:54.998582 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:04:00.001169 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:04:05.003901 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:04:10.008260 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:04:15.010601 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:04:20.013112 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:04:25.015117 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:04:30.018776 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:04:35.021191 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:04:40.025538 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:04:45.027684 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:04:50.029632 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:04:55.033437 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:05:00.036307 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:05:05.038908 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:05:10.041034 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:05:15.045901 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:05:20.048587 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:05:25.051102 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:05:30.054038 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:05:35.056263 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:05:40.058601 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:05:45.061105 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:05:50.063594 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:05:55.066318 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:06:00.069000 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:06:05.074791 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:06:10.077576 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:06:15.079736 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:06:20.081861 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:06:25.086960 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:06:30.090748 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:06:35.094805 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:06:40.097899 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:06:45.102101 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:06:50.105699 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:06:55.108688 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:07:00.114311 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:07:05.117350 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:07:10.120016 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:07:15.123229 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:07:20.125639 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:07:25.127848 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:07:30.130607 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:07:35.133200 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:07:40.135595 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:07:45.139903 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:07:50.142730 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:07:55.148753 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:08:00.151932 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:08:05.154441 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:08:10.158264 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:08:15.161638 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:08:20.164703 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:08:25.166959 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:08:30.169762 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:08:35.172365 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:08:40.174995 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:08:45.178786 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:08:50.181768 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:08:55.186325 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:09:00.195290 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:09:05.200981 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:09:10.204948 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:09:15.218053 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:09:15.250276 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:09:15.251013 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:09:20.268349 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:09:20.280337 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:09:20.282111 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:09:25.302915 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:09:25.312000 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:09:25.312798 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:09:30.330389 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:09:30.339320 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:09:30.340061 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:09:35.356029 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:09:35.367079 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:09:35.367823 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:09:40.395776 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:09:40.408859 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:09:40.409602 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:09:45.425855 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:09:45.440480 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:09:45.441225 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:09:50.460246 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:09:50.476166 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:09:50.476968 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:09:55.499483 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:09:55.508889 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:09:55.510985 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:10:00.532579 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:10:00.541842 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:10:00.544832 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:10:05.565344 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:10:05.579037 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:10:05.580130 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:10:10.600033 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:10:10.610367 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:10:10.611273 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:10:15.635369 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:10:15.659535 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:10:15.660845 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:10:20.686675 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:10:20.712817 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:10:20.715144 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:10:25.740820 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:10:25.766792 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:10:25.767889 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:10:30.793311 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:10:30.803602 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:10:30.804423 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:10:35.827401 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:10:35.851656 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:10:35.853645 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:10:40.878756 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:10:40.902416 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:10:40.903623 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:10:45.930912 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:10:45.955764 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:10:45.960639 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:10:50.976699 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:10:50.986784 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:10:50.987839 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:10:56.006764 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:10:56.031415 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:10:56.032161 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:11:01.049272 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:11:01.075360 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:11:01.077909 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:11:06.099070 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:11:06.124843 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:11:06.126523 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:11:11.155913 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:11:11.173580 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:11:11.174692 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:11:16.192737 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:11:16.207754 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:11:16.208555 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:11:21.226439 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:11:21.236681 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:11:21.238079 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:11:26.257497 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:11:26.266473 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:11:26.267215 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:11:31.284129 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:11:31.313144 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:11:31.315685 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:11:36.339855 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:11:36.364398 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:11:36.368834 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:11:41.389947 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:11:41.399872 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:11:41.400933 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:11:46.418856 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:11:46.428697 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:11:46.429699 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:11:51.451701 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:11:51.461095 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:11:51.461958 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:11:56.487639 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:11:56.502581 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:11:56.503504 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:12:01.523195 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:12:01.534141 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:12:01.534906 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:12:06.552243 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:12:06.575717 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:12:06.580844 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:12:11.602803 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:12:11.612889 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:12:11.614147 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:12:16.633618 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:12:16.643487 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:12:16.645661 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:12:21.670347 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:12:21.681668 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:12:21.684024 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:12:26.705727 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:12:26.716565 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:12:26.717418 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:12:31.738693 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:12:31.748291 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:12:31.749198 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:12:36.767303 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:12:36.793427 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:12:36.795837 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:12:41.817087 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:12:41.841694 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:12:41.842542 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:12:46.865372 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:12:46.875847 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:12:46.876757 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:12:51.896400 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:12:51.906949 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:12:51.909407 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:12:56.930150 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:12:56.938779 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:12:56.939688 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:13:01.962623 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:13:01.988209 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:13:01.989785 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:13:07.009014 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:13:07.017648 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:13:07.018574 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:13:12.038528 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:13:12.064103 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:13:12.065039 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:13:17.081975 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:13:17.107348 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:13:17.108607 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:13:22.130367 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:13:22.139169 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:13:22.140256 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:13:27.162568 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:13:27.188867 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:13:27.190715 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:13:32.236563 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:13:32.247962 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:13:32.249679 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:13:37.272076 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:13:37.298941 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:13:37.301164 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:13:42.327202 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:13:42.352865 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:13:42.354417 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:13:47.379025 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:13:47.403974 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:13:47.405610 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:13:52.426926 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:13:52.452028 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:13:52.453680 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:13:57.478396 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:13:57.488535 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:13:57.490647 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:14:02.515686 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:14:02.540877 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:14:02.542467 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:14:07.565662 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:14:07.590986 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:14:07.593293 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:14:12.613141 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:14:12.621430 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:14:12.622158 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:14:17.640502 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:14:17.649627 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:14:17.651136 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:14:22.678375 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:14:22.688607 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:14:22.689733 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:14:27.707774 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:14:27.716522 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:14:27.717522 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:14:32.739243 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:14:32.765270 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:14:32.766355 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:14:37.791038 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:14:37.818106 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:14:37.819422 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:14:42.846342 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:14:42.873440 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:14:42.874971 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:14:47.903474 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:14:47.929108 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:14:47.930545 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:14:52.951632 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:14:52.977749 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:14:52.980173 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:14:57.999641 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:14:58.010198 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:14:58.011129 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:15:03.028529 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:15:03.037993 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:15:03.039066 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:15:08.054713 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:15:08.063317 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:15:08.064177 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:15:13.092395 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:15:13.109255 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:15:13.111389 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:15:18.136867 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:15:18.147308 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:15:18.149189 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:15:23.167336 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:15:23.192193 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:15:23.193642 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:15:28.205211 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:15:28.223023 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:15:28.225077 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:15:33.240359 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:15:33.251313 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:15:33.252053 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:15:38.272863 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:15:38.289232 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:15:38.291047 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:15:43.322403 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:15:43.337949 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:15:43.339934 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:15:48.361083 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:15:48.376884 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:15:48.378737 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:15:53.397732 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:15:53.407691 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:15:53.412838 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:15:58.430561 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:15:58.442148 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:15:58.444315 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:16:03.469291 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:16:03.484563 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:16:03.485629 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:16:08.511053 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:16:08.522292 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:16:08.523446 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:16:13.542748 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:16:13.551776 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:16:13.552570 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:16:18.571022 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:16:18.580058 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:16:18.580962 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:16:23.613072 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:16:23.628788 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:16:23.629988 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:16:28.646413 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:16:28.663142 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:16:28.663878 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:16:33.682771 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:16:33.708223 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:16:33.709129 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:16:38.728111 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:16:38.737516 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:16:38.738352 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:16:43.761065 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:16:43.771178 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:16:43.772828 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:16:48.791861 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:16:48.800484 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:16:48.801229 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:16:53.824611 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:16:53.846956 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:16:53.847978 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:16:58.869880 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:16:58.881021 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:16:58.882033 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:17:03.900583 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:17:03.910066 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:17:03.910811 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:17:08.930776 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:17:08.939437 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:17:08.940181 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:17:13.956962 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:17:13.965791 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:17:13.966790 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:17:18.982330 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:17:19.006304 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:17:19.008373 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:17:24.026748 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:17:24.041953 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:17:24.042805 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:17:29.059756 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:17:29.069197 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:17:29.070234 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:17:34.087903 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:17:34.097669 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:17:34.099371 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:17:39.125859 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:17:39.151047 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:17:39.152771 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:17:44.178059 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:17:44.195920 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:17:44.196861 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:17:49.215927 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:17:49.232777 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:17:49.233630 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:17:54.255818 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:17:54.278010 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:17:54.279231 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:17:59.301972 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:17:59.328362 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:17:59.330601 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:18:04.347888 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:18:04.357962 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:18:04.358766 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:18:09.380371 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:18:09.392126 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:18:09.393447 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:18:14.412075 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:18:14.421649 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:18:14.422768 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:18:19.439320 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:18:19.449240 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:18:19.450075 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:18:24.474993 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:18:24.485524 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:18:24.486791 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:18:29.511598 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:18:29.520906 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:18:29.521662 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:18:34.542875 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:18:34.563062 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:18:34.564267 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:18:39.589174 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:18:39.599548 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:18:39.601491 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:18:44.626593 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:18:44.642341 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:18:44.643357 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:18:49.669111 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:18:49.688777 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:18:49.689771 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:18:54.716956 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:18:54.733385 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:18:54.734467 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:18:59.749684 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:18:59.761856 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:18:59.763005 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:19:04.781648 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:19:04.796387 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:19:04.797150 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:19:09.816488 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:19:09.825852 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:19:09.826601 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:19:14.854087 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:19:14.866310 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:19:14.867151 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:19:19.896508 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:19:19.912527 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:19:19.914006 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:19:24.940820 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:19:24.956570 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:19:24.958333 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:19:29.979736 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:19:29.989036 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:19:29.989784 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:19:35.023788 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:19:35.038015 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:19:35.038749 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:19:40.058907 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:19:40.067520 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:19:40.068262 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:19:45.090233 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:19:45.101853 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:19:45.102924 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:19:50.126259 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:19:50.141433 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:19:50.142211 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:19:55.163712 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:19:55.188509 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:19:55.189368 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:20:00.209024 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:20:00.233220 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:20:00.234086 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:20:05.251126 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:20:05.277443 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:20:05.279849 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:20:10.302022 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:20:10.313588 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:20:10.315922 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:20:15.339121 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:20:15.348774 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:20:15.349523 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:20:20.371590 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:20:20.395982 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:20:20.396826 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:20:25.420137 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:20:25.442004 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:20:25.444068 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:20:30.462533 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:20:30.477498 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:20:30.481139 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:20:35.498384 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:20:35.514473 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:20:35.515334 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:20:40.538952 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:20:40.550202 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:20:40.551296 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:20:45.579068 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:20:45.592253 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:20:45.593038 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:20:50.610350 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:20:50.619332 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:20:50.620081 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:20:55.638897 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:20:55.649859 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:20:55.651607 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2019-03-17 17:21:00.669522 INFO AppDaemon: HASS: Connected to Home Assistant 0.89.2
+2019-03-17 17:21:00.678568 WARNING AppDaemon: HASS: Error in authentication
+2019-03-17 17:21:00.679331 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds

@@ -24,9 +24,9 @@
 # Reading Light 
 - platform: mqtt
   name: Reading Light
-  state_topic: "stat/sonoff4/POWER"
-  command_topic: "cmnd/sonoff4/POWER"
-  availability_topic: "tele/sonoff4/LWT"
+  state_topic: "stat/sonoff04/POWER"
+  command_topic: "cmnd/sonoff04/POWER"
+  availability_topic: "tele/sonoff04/LWT"
   qos: 1
   payload_on: "ON"
   payload_off: "OFF"
@@ -35,9 +35,21 @@
 # Cupboard Light 
 - platform: mqtt
   name: Cupboard Lamps
-  state_topic: "stat/sonoff7/POWER"
-  command_topic: "cmnd/sonoff7/POWER"
-  availability_topic: "tele/sonoff7/LWT"
+  state_topic: "stat/sonoff07/POWER"
+  command_topic: "cmnd/sonoff07/POWER"
+  availability_topic: "tele/sonoff07/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  
+#Bedroom 2 Headboard Light
+- platform: mqtt
+  name: Headboard Light
+  state_topic: "stat/sonoff03/POWER"
+  command_topic: "cmnd/sonoff03/POWER"
+  availability_topic: "tele/sonoff03/LWT"
   qos: 1
   payload_on: "ON"
   payload_off: "OFF"

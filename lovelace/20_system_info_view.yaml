@@ -3,30 +3,47 @@ icon: mdi:server
 path: 20_system_info_view
 #panel: true
 cards:
-  -  type: sensor
-     entity: sensor.disk_free
-  -  type: sensor
-     entity: sensor.load_1m
-  -  type: sensor
-     entity: sensor.network_in_eth0
-     icon: mdi:lan
-  -  type: sensor
-     entity: sensor.network_out_eth0
-     icon: mdi:lan
-
+  - type: sensor
+    entity: sensor.disk_free
+  - type: sensor
+    entity: sensor.load_1m
+  - type: sensor
+    entity: sensor.network_in_wlp1s0
+    icon: mdi:lan
+  - type: sensor
+    entity: sensor.network_out_wlp1s0
+    icon: mdi:lan
+  - type: sensor
+    entity: sensor.cpu_speed
+    icon: mdi:pulse
+  - type: sensor
+    entity: sensor.battery
+    icon: mdi:battery
 
   - type: sensor
-    entity: sensor.cpu_temp
-    name: CPU Temp
+    entity: sensor.core0_temp
+    name: Core 0 Temp
+    graph: line
+  - type: sensor
+    entity: sensor.core1_temp
+    name: Core 1 Temp
+    graph: line
+  - type: sensor
+    entity: sensor.core2_temp
+    name: Core 2 Temp
+    graph: line
+  - type: sensor
+    entity: sensor.core3_temp
+    name: Core 3 Temp
     graph: line
 
   - type: history-graph
     entities:
-      - entity: sensor.cpu_temp
-        name: CPU Temperature
+      - entity: sensor.core0_temp
+        name: Core 0 
 
-      - entity: sensor.dht_sensor_temperature
-        name: Room Temperature
+      - entity: sensor.core1_temp
+        name: Core 1
         
     detail: 2
     hours_to_show: 12

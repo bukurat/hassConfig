@@ -1,0 +1,48 @@
+2019-03-16 19:41:29.227991 WARNING css: /home exists, but is not writeable, owner: root
+2019-03-16 19:41:29.236272 WARNING javascript: /home exists, but is not writeable, owner: root
+2019-03-16 19:43:52.102288 INFO Compiling dashboard 'computer'
+2019-03-16 19:43:52.769403 INFO function [get_dashboard] finished in 674 ms
+2019-03-16 19:43:53.849473 INFO HADashboard: New dashboard connected: Computer dashboard
+2019-03-16 19:44:28.213627 INFO HADashboard: Dashboard disconnected
+2019-03-16 19:44:31.259294 INFO Compiling dashboard 'tablet'
+2019-03-16 19:44:31.893636 INFO function [get_dashboard] finished in 651 ms
+2019-03-16 19:44:32.331983 INFO HADashboard: New dashboard connected: Tablet Panel
+2019-03-16 19:45:04.971115 INFO HADashboard: Dashboard disconnected
+2019-03-16 19:46:37.960585 INFO function [get_dashboard] finished in 155 ms
+2019-03-16 19:46:38.429627 INFO HADashboard: New dashboard connected: Tablet Panel
+2019-03-16 19:50:39.181365 INFO HADashboard: Dashboard disconnected
+2019-03-16 19:50:39.237926 INFO Compiling dashboard 'tablet'
+2019-03-16 19:50:39.898220 INFO function [get_dashboard] finished in 676 ms
+2019-03-16 19:50:40.493283 INFO HADashboard: New dashboard connected: Tablet Panel
+2019-03-16 19:54:03.255353 INFO HADashboard: Dashboard disconnected
+2019-03-16 19:54:03.301998 INFO Compiling dashboard 'tablet'
+2019-03-16 19:54:03.679664 WARNING Duplicate widget name 'light.bar_light' - ignored
+2019-03-16 19:54:03.962274 INFO function [get_dashboard] finished in 666 ms
+2019-03-16 19:54:04.495104 INFO HADashboard: New dashboard connected: Tablet Panel
+2019-03-16 19:54:58.727251 INFO HADashboard: Dashboard disconnected
+2019-03-16 19:54:58.776693 INFO Compiling dashboard 'tablet'
+2019-03-16 19:54:59.827993 INFO HADashboard: New dashboard connected: Tablet Panel
+2019-03-16 19:55:00.308984 WARNING Unable to find widget type 'ight'
+2019-03-16 19:55:00.312715 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/appdaemon/dashboard.py", line 312, in _load_widget
+    yaml_file, templates = self._do_subs(yaml_path, instantiated_widget, '""')
+  File "/usr/local/lib/python3.6/dist-packages/appdaemon/dashboard.py", line 219, in _do_subs
+    with open(file, 'r') as fd:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.6/dist-packages/appdaemon/widgets/ight.yaml'
+
+2019-03-16 19:55:01.466069 INFO function [get_dashboard] finished in 2713 ms
+2019-03-16 19:55:01.492050 INFO HADashboard: Dashboard disconnected
+2019-03-16 19:55:01.935423 INFO HADashboard: New dashboard connected: Tablet Panel
+2019-03-16 19:55:15.592993 INFO HADashboard: Dashboard disconnected
+2019-03-16 19:55:15.664810 INFO Compiling dashboard 'tablet'
+2019-03-16 19:55:16.359459 INFO function [get_dashboard] finished in 711 ms
+2019-03-16 19:55:16.760177 INFO HADashboard: New dashboard connected: Tablet Panel
+2019-03-16 19:56:20.664354 INFO HADashboard: Dashboard disconnected
+2019-03-16 19:56:20.714949 INFO Compiling dashboard 'tablet'
+2019-03-16 19:56:21.754264 INFO HADashboard: New dashboard connected: Tablet Panel
+2019-03-16 19:56:22.497737 INFO function [get_dashboard] finished in 1805 ms
+2019-03-16 19:56:22.519272 INFO HADashboard: Dashboard disconnected
+2019-03-16 19:56:22.947353 INFO HADashboard: New dashboard connected: Tablet Panel
+2019-03-16 19:56:42.101155 INFO HADashboard: Dashboard disconnected
+2019-03-16 20:10:22.478953 INFO function [get_dashboard] finished in 44 ms
+2019-03-16 20:10:26.457117 INFO HADashboard: New dashboard connected: Tablet Panel
