@@ -28,3 +28,7 @@ ipchange.yaml
 production_auth.json
 .homekit.state
 .vscode
+.b*
+.c*
+.p*
+.H*
