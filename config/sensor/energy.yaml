@@ -1,0 +1,20 @@
+  - platform: mqtt
+    name: "Energy - Nathan"
+    state_topic: "tele/sonoffpow3/SENSOR"
+    value_template: '{{ value_json["ENERGY"]["Today"] }}'
+    unit_of_measurement: "kWh"
+  - platform: mqtt
+    name: "Power"
+    state_topic: "tele/sonoffpow3/SENSOR"
+    value_template: '{{ value_json["ENERGY"]["Power"] }}'
+    unit_of_measurement: "W"
+  - platform: mqtt
+    name: "Voltage"
+    state_topic: "tele/sonoffpow3/SENSOR"
+    value_template: '{{ value_json["ENERGY"]["Voltage"] }}'
+    unit_of_measurement: "V"
+  - platform: mqtt
+    name: "Current"
+    state_topic: "tele/sonoffpow3/SENSOR"
+    value_template: '{{ value_json["ENERGY"]["Current"] }}'
+    unit_of_measurement: "A"

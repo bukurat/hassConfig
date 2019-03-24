@@ -32,3 +32,6 @@ production_auth.json
 .c*
 .p*
 .H*
+apdconf/secrets.yaml
+apdconf/compiled/*
+*.code-workspace

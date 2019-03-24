@@ -37,10 +37,26 @@ cards:
         icon: mdi:hotel
         tap_action:
            action: toggle
+      - entity: switch.bedroom_3_power
+        icon: mdi:xbox
+  - type: glance
+    title: Power
+    show_name: true
+    show_state: true
+    entities:
+      - entity: switch.bedroom_3_power
+        name: Desk
+        icon: mdi:xbox 
+  - type: glance
+    entities:
+      - sensor.energy_nathan
+      - sensor.power
+      - sensor.voltage
+      - sensor.current
   - type: entities
     title: example
     entities:
       - light.cupboard_lamps
       - light.reading_light
       - light.headboard_light
- 
+      - switch.bedroom_3_power
