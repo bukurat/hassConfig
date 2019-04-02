@@ -1,6 +1,8 @@
-- platform: command_line
-  name: mqtt_server
-  command: "sudo systemctl status mosquitto.service | awk 'FNR==3 { print $3 }'"
-  device_class: connectivity
-  payload_on: "(running)"
-  payload_off: "(dead)"
+# not required for docker container.
+
+#- platform: command_line
+#  name: mqtt_server
+#  command: "sudo systemctl status mosquitto.service | awk 'FNR==3 { print $3 }'"
+#  device_class: connectivity
+#  payload_on: "(running)"
+#  payload_off: "(dead)"

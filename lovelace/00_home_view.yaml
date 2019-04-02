@@ -46,13 +46,36 @@ cards:
     entities:
       - entity: switch.bedroom_3_power
         name: Desk
-        icon: mdi:xbox 
+        icon: mdi:xbox
+        tap_action:
+          action: toggle
+      - entity: switch.washer_power
+        name: Washing Machine
+        icon: mdi:washing-machine
+        tap_action:
+          action: toggle
+      - entity: switch.workshop_power
+        name: Workshop
+        icon: mdi:toolbox
+        tap_action:
+           action: toggle
+      - entity: switch.kitchen_bench_power
+        name: Kitchen
+        tap_action:
+          action: toggle
   - type: glance
     entities:
       - sensor.energy_nathan
       - sensor.power
       - sensor.voltage
       - sensor.current
+  - type: glance
+    name: Washing Machine
+    entities:
+      - sensor.energy_washing_machine
+      - sensor.washer_power
+      - sensor.washer_voltage
+      - sensor.washer_current
   - type: entities
     title: example
     entities:
@@ -60,3 +83,5 @@ cards:
       - light.reading_light
       - light.headboard_light
       - switch.bedroom_3_power
+      - switch.kitchen_bench_power
+      -  light.dashboard_screen

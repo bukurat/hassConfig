@@ -2,7 +2,7 @@
 ## Main arguments, all optional
 ##
 title: Tablet Panel
-widget_dimensions: [120, 120]
+widget_dimensions: [110, 110]
 widget_size: [1, 1]
 widget_margins: [5, 5]
 columns: 8
@@ -10,9 +10,10 @@ global_parameters:
   use_comma: 0
   precision: 1
   use_hass_icon: 1
+  namespace: default
 clock:
   widget_type: clock
-  widget_style: "font-size: 200%; background:blue;"
+  widget_style: "font-size: 150%; background:blue;"
   time_style: "color:yellow;"
   date_style: "color:red;"
 
@@ -25,18 +26,32 @@ salt_lamp:
   widget_type: light
   title: Salt Lamp
   icon: mdi-lamp
+  entity: light.salt_lamp
+bedroom_3_power:
+  widget_type: switch
+  title: Nathan's Desk
+  entity: switch.bedroom_3_power
 bar_light:
   widget_type: switch
   icon: mdi-white-balance-iridescent
-  Title: Bar Light
+  title: Bar Light
+  entity: light.bar_light
+kitchen_bench_power:
+  widget_type: switch
+  title: Kitchen Bench
+  entity: switch.kitchen_bench_power
 cpu_temp:
   widget_type: sensor
   entity: sensor.cpu_temp
   icon: mdi-raspberrypi
-  
+headboard_light:
+  widget_type: light
+  title: Headboard Light
+  entity: light.headboard_light
+
 layout:
-  - clock.clock (2x1),sensor.core0_temp, sensor.core1_temp,sensor.core2_temp, sensor.core3_temp,  sensor.cpu_speed
-  - spacer (2x1), input_boolean.front_door_lock,light.salt_lamp, light.lounge_curtain_light,sensor.disk_free,  sensor.load_1m
-  - input_boolean.nathan_lamp_switch, light.bar_light, light.reading_light,light.cupboard_lamps, switch.christmas_tree, switch.workshop_power
-  - 
+  - clock (2x1), sensor.cpu_speed,sensor.disk_free,  sensor.load_1m
+  - spacer (2x1), headboard_light
+  - input_boolean.front_door_lock, salt_lamp, light.lounge_curtain_light, bedroom_3_power, kitchen_bench_power
+  - input_boolean.nathan_lamp_switch, bar_light, light.reading_light,light.cupboard_lamps, switch.christmas_tree, switch.workshop_power
   - reload

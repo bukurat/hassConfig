@@ -8,6 +8,7 @@
 .cloud
 .storage
 .uuid
+.cache
 core.*
 OZW_Log.txt
 home-assistant.log

@@ -21,30 +21,30 @@
 # on a LENOVO 20324/IdeaPad Flex10, BIOS 93CN54WW 10/09/2014 
 #CPU0: Intel(R) Pentium(R) CPU  N3530  @ 2.16GHz 
 
-- platform: command_line
-  name: Core0 Temp
-  command: "/usr/bin/sensors|grep 'Core 0'|cut -c16-19"
-  unit_of_measurement: "°C"
-  value_template: '{{ value}}'
+# - platform: command_line
+#   name: Core0 Temp
+#   command: "/usr/bin/sensors|grep 'Core 0'|cut -c16-19"
+#   unit_of_measurement: "°C"
+#   value_template: '{{ value}}'
 
-- platform: command_line
-  name: Core1 Temp
-  command: "/usr/bin/sensors|grep 'Core 1'|cut -c16-19"
-  unit_of_measurement: "°C"
-  value_template: '{{ value}}'
+# - platform: command_line
+#   name: Core1 Temp
+#   command: "/usr/bin/sensors|grep 'Core 1'|cut -c16-19"
+#   unit_of_measurement: "°C"
+#   value_template: '{{ value}}'
 
-- platform: command_line
-  name: Core2 Temp
-  command: "/usr/bin/sensors|grep 'Core 2'|cut -c16-19"
-  unit_of_measurement: "°C"
-  value_template: '{{ value}}'
+# - platform: command_line
+#   name: Core2 Temp
+#   command: "/usr/bin/sensors|grep 'Core 2'|cut -c16-19"
+#   unit_of_measurement: "°C"
+#   value_template: '{{ value}}'
 
-- platform: command_line
-  name: Core3 Temp
-  command: "/usr/bin/sensors|grep 'Core 3'|cut -c16-19"
-  unit_of_measurement: "°C"
-  value_template: '{{ value}}'
-
+# - platform: command_line
+#   name: Core3 Temp
+#   command: "/usr/bin/sensors|grep 'Core 3'|cut -c16-19"
+#   unit_of_measurement: "°C"
+#  value_template: '{{ value}}'
+# the above isn't yet working in a docker environment due to missing files
 - platform: cpuspeed
 - platform: linux_battery
 
