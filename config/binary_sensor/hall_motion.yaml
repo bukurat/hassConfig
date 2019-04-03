@@ -1,10 +1,6 @@
 - platform: mqtt
-  name: Hall Motion
-  payload_on: "D3276E"
-##  payload_off: "D3276Eoff"
-  device_class: motion
-  state_topic: "sonoffbr/tele/RESULT"
-  value_template: '{{ value_json.RfReceived.Data }}'
+  name: 'Hallway Motion'
+  state_topic: "home/Hall_Motion"
   off_delay: 5
-  qos: 1
+  device_class: motion
   

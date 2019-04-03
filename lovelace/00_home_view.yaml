@@ -21,6 +21,7 @@ cards:
         icon: mdi:ceiling-light
       - entity: light.bedroom_3_lamp2
         icon: mdi:ceiling-light
+      - entity: switch.bed_3_bedside_light
       - entity: light.office_desk_lamp
         name: Office desk-lamp
         icon: mdi:desk-lamp
@@ -59,8 +60,8 @@ cards:
         icon: mdi:toolbox
         tap_action:
            action: toggle
-      - entity: switch.kitchen_bench_power
-        name: Kitchen
+      - entity: switch.kitchen_tv
+        name: Kitchen TV
         tap_action:
           action: toggle
   - type: glance
@@ -83,5 +84,5 @@ cards:
       - light.reading_light
       - light.headboard_light
       - switch.bedroom_3_power
-      - switch.kitchen_bench_power
-      -  light.dashboard_screen
+      - switch.kitchen_tv
+      - switch.kitchen_water_feature

@@ -1,0 +1,8 @@
+- alias: 'rfbridge_demultiplexer'
+  trigger:
+  - platform: mqtt
+    topic: tele/sonoffbr/RESULT
+  action:
+  - service: python_script.rfbridge_demux
+    data_template:
+      payload: '{{trigger.payload_json.RfReceived.Data}}'

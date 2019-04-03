@@ -9,3 +9,8 @@
   payload_off: "OFF"
   payload_available: "Online"
   payload_not_available: "Offline"
+
+- platform: mqtt
+  name: Bed 3 Bedside light
+  state_topic: home/NPow3
+  command_topic: home/NPow3

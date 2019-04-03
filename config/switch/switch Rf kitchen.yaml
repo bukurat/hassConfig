@@ -2,21 +2,16 @@
 
 -  platform: mqtt
    name: “Kitchen water feature”
-   state_topic: “sonoffbr/tele/RESULT”
-   command_topic: “sonoffbr/cmnd/RfCode”
-   qos: 1
-   payload_on: “#86CC0F”
-   payload_off: “#86CC0E”
-   retain: true
+   state_topic: “home/Power_A”
+   command_topic: “home/Power_A”
+
+-  platform: mqtt
+   name: “Kitchen TV”
+   state_topic: “home/Power_B”
+   command_topic: “home/Power_B”
+
 
 -  platform: mqtt
    name: “Switch C”
-   state_topic: “sonoffbr/tele/RESULT”
-   command_topic: “sonoffbr/cmnd/RfCode”
-   availability_topic: "sonoffbr/tele/LWT"
-   qos: 1
-   payload_on: “#86CC0B”
-   payload_off: “#86CC0A”
-   payload_available: "Online"
-   payload_not_available: "Offline"
-   optimistic: true
+   state_topic: “home/Power_C”
+   command_topic: “home/Power_C”
