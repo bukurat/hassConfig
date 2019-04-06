@@ -25,21 +25,7 @@ d = { 'D3276E':['Hall_Motion','ON','false'],
       '84262E':['MainBed','ON','true'], # Closed
       '842627':['MainBed','OFF','true'], # Open
       '8B460A':['Office','ON','true'],
-      '8B460E':['Office','OFF','true'],
-      'C9EC0A':['Garage_1','ON', 'true'],
-      'C9EC0E':['Garage_1','OFF','true'],
-      '0DAC0A':['Garage_2','ON','true'],
-      '0DAC0E':['Garage_2','OFF','true']
+      '8B460E':['Office','OFF','true']
 
 
     }
-
-p = data.get('payload')
-
-if p is not None:
-  if p in d.keys():
-    service_data = {'topic':'home/{}'.format(d[p][0]), 'payload':'{}'.format(d[p][1]), 'qos':0, 'retain':'{}'.format(d[p][2])}
-  else:
-    service_data = {'topic':'home/unknown', 'payload':'{}'.format(p), 'qos':0, 'retain':'false'}
-    logger.warning('<rfbridge_demux> Received unknown RF command: {}'.format(p))
-  hass.services.call('mqtt', 'publish', service_data, False)

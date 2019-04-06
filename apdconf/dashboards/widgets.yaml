@@ -1,0 +1,149 @@
+clock:
+  widget_type: clock
+  widget_style: "font-size: 150%; background:blue;"
+  time_style: "color:yellow;"
+  date_style: "color:red;"
+
+reload:
+  widget_type: reload 
+  title: Reload
+  icon: fa-refresh
+
+salt_lamp:
+  widget_type: switch
+  title: Salt Lamp
+  icon_on: mdi-lamp
+  icon_off: mdi-lamp
+  entity: light.salt_lamp
+  icon_style_active: "color: yellow"
+
+cupboard_lamps:
+  widget_type: switch
+  title: Cupboard Lamps
+  entity: light.cupboard_lamps
+  icon_on: mdi-white-balance-iridescent
+  icon_off: mdi-white-balance-iridescent
+  icon_style_active: "color: yellow"
+
+lounge_curtain_light:
+  widget_type: light
+  entity: light.lounge_curtain_light
+  title: Lounge Mood Lighting
+
+reading_light:
+  widget_type: switch
+  entity: light.reading_light
+  title: Reading Lamp
+  icon_on: mdi-desk-lamp
+  icon_off: mdi-desk-lamp
+
+bar_light:
+  widget_type: switch
+  title: Bar Light
+  entity: light.bar_light
+  icon_on: mdi-white-balance-iridescent
+  icon_off: mdi-white-balance-iridescent
+  icon_style_active: "color: yellow"
+
+office_desk_lamp:
+  widget_type: light
+  title: Office Desk
+  entity: light.office_desk_lamp
+  icon_on: mdi-desk-lamp
+  icon_off: mdi-desk-lamp
+
+christmas_tree:
+  widget_type: switch
+  entity: switch.christmas_tree
+  title: christmas tree
+  icon_on: fa-tree
+
+bedroom_3_power:
+  widget_type: switch
+  title: Nathan's Desk
+  entity: switch.bedroom_3_power
+  icon_on: mdi-power-socket-au
+
+workshop_power:
+  widget_type: switch
+  title: Workshop Power
+  entity: switch.workshop_power
+  icon_on: mdi-power-socket-au
+
+
+kitchen_bench_power:
+  widget_type: switch
+  title: Kitchen Bench
+  entity: switch.kitchen_bench_power
+  icon_on: mdi-power-socket-au
+  icon_off: mdi-power-socket-au
+
+kitchen_water_feature:
+  widget_type: switch
+  title: Water Feature
+  entity: switch.kitchen_water_feature
+  icon_on: mdi-fountain
+  icon_style_active: "color: green"
+
+cpu_temp:
+  widget_type: sensor
+  entity: sensor.cpu_temp
+  icon_on: mdi-raspberrypi
+
+cpu_speed:
+  widget_type: sensor
+  title: Cpu Speed
+  entity: sensor.cpu_speed
+  icon: fa-laptop
+
+disk_free:
+  widget_type: sensor
+  title: Disk Free
+  entity: sensor.disk_free
+  icon: fa-hdd
+
+load_1m:
+  widget_type: sensor
+  entity: sensor.load_1m
+  title: Load (1m)
+
+
+headboard_light:
+  widget_type: switch
+  title: Headboard Light
+  entity: light.headboard_light
+  icon_on: fa-lightbulb
+  icon_off: fa-lightbulb
+  icon_style_active: "color: yellow"
+
+garage_door_1:
+  widget_type: binary_sensor
+  entity: binary_sensor.garage_door_1
+  title: Garage Door 1
+  icon_on: mdi-garage-open
+  icon_off: mdi-garage
+  icon_style_active: "color: red"
+
+garage_door_2:
+  widget_type: binary_sensor
+  entity: binary_sensor.garage_door_2
+  title: Garage Door 2
+  icon_on: mdi-garage-open
+  icon_off: mdi-garage
+  icon_style_active: "color: red"
+
+back_sliding_door:
+  widget_type: binary_sensor
+  entity: binary_sensor.back_sliding_door
+  title: Back Door
+  icon_on: mdi-glassdoor
+  icon_off: mdi-glassdoor
+  icon_style_active: "color: red"
+
+weather_map:
+  widget_type: iframe
+  title: Weather
+  refresh: 600
+  url_list:
+ #   - https://embed.windy.com/embed2.html?lat=51.4768&lon=0&zoom=10&level=surface&overlay=rain&menu=&message=&marker=&forecast=12&calendar=now&location=coordinates&type=map&actualGrid=&metricWind=kt&metricTemp=%C2%B0C
+    - https://www.wunderground.com/swf/pws_mini_rf_nc.swf?station=INEWSOUT289&freq=&units=metric&lang=EN type="application/x-shockwave-flash" width="290" height="130"

@@ -9,49 +9,15 @@ columns: 8
 global_parameters:
   use_comma: 0
   precision: 1
-  use_hass_icon: 1
+#  use_hass_icon: 1
   namespace: default
-clock:
-  widget_type: clock
-  widget_style: "font-size: 150%; background:blue;"
-  time_style: "color:yellow;"
-  date_style: "color:red;"
 
-reload:
-  widget_type: reload 
-  title: Reload
-  icon_active: fa-refresh
-  icon_inactive: fa-refresh
-salt_lamp:
-  widget_type: light
-  title: Salt Lamp
-  icon: mdi-lamp
-  entity: light.salt_lamp
-bedroom_3_power:
-  widget_type: switch
-  title: Nathan's Desk
-  entity: switch.bedroom_3_power
-bar_light:
-  widget_type: switch
-  icon: mdi-white-balance-iridescent
-  title: Bar Light
-  entity: light.bar_light
-kitchen_bench_power:
-  widget_type: switch
-  title: Kitchen Bench
-  entity: switch.kitchen_bench_power
-cpu_temp:
-  widget_type: sensor
-  entity: sensor.cpu_temp
-  icon: mdi-raspberrypi
-headboard_light:
-  widget_type: light
-  title: Headboard Light
-  entity: light.headboard_light
+
 
 layout:
-  - clock (2x1), sensor.cpu_speed,sensor.disk_free,  sensor.load_1m
-  - spacer (2x1), headboard_light
-  - input_boolean.front_door_lock, salt_lamp, light.lounge_curtain_light, bedroom_3_power, kitchen_bench_power
-  - input_boolean.nathan_lamp_switch, bar_light, light.reading_light,light.cupboard_lamps, switch.christmas_tree, switch.workshop_power
+  - include: widgets
+  - clock (2x1), cpu_speed, disk_free,  load_1m
+  - spacer (2x1), headboard_light, back_sliding_door, garage_door_1, garage_door_2
+  - input_boolean.front_door_lock, salt_lamp, lounge_curtain_light, bedroom_3_power, kitchen_bench_power,kitchen_water_feature,office_desk_lamp
+  - input_boolean.nathan_lamp_switch, bar_light, reading_light,cupboard_lamps, christmas_tree,workshop_power
   - reload

@@ -60,10 +60,18 @@ cards:
         icon: mdi:toolbox
         tap_action:
            action: toggle
+      
+      - entity: switch.kitchen_water_feature
+        name: Water feature
+        icon: mdi:fountain
+        tap_action:
+          action: toggle
+
       - entity: switch.kitchen_tv
         name: Kitchen TV
         tap_action:
           action: toggle
+
   - type: glance
     entities:
       - sensor.energy_nathan

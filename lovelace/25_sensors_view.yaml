@@ -8,3 +8,5 @@ cards:
       - binary_sensor.main_bedroom_window
       - binary_sensor.hallway_motion
       - binary_sensor.back_sliding_door
+      - binary_sensor.garage_door_1
+      - binary_sensor.garage_door_2      

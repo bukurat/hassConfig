@@ -1,0 +1,9 @@
+- platform: mqtt
+  name: 'Garage door 1'
+  state_topic: 'home/Garage_1'
+  device_class: door
+
+- platform: mqtt
+  name: 'Garage door 2'
+  state_topic: 'home/Garage_2'
+  device_class: door

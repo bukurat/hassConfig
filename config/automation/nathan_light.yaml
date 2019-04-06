@@ -1,20 +1,20 @@
 #########################################
 # Publish switch change via MQTT to RF #
 #########################################
-- id: mqtt_publish_switch_rf
-  alias: Publish switch change via MQTT to RF
-  hide_entity: true
-  initial_state: "on"
-  trigger:
-    - platform: state
-      entity_id: input_boolean.nathan_lamp_switch
-  action:
-    - service: mqtt.publish
-      data_template:
-        topic: >
-          {%- if trigger.entity_id == "input_boolean.nathan_lamp_switch" and states.input_boolean.nathan_lamp_switch.state == "on" -%}
-                  sonoffbr/cmnd/RfKey1
-          {%- elif trigger.entity_id == "input_boolean.nathan_lamp_switch" and states.input_boolean.nathan_lamp_switch.state == "off" -%}
-                  sonoffbr/cmnd/RfKey2
-          {% endif %}
-        payload: ''
+# - id: mqtt_publish_switch_rf
+#   alias: Publish switch change via MQTT to RF
+#   hide_entity: true
+#   initial_state: "on"
+#   trigger:
+#     - platform: state
+#       entity_id: input_boolean.nathan_lamp_switch
+#   action:
+#     - service: mqtt.publish
+#       data_template:
+#         topic: >
+#           {%- if trigger.entity_id == "input_boolean.nathan_lamp_switch" and states.input_boolean.nathan_lamp_switch.state == "on" -%}
+#                   sonoffbr/cmnd/RfKey1
+#           {%- elif trigger.entity_id == "input_boolean.nathan_lamp_switch" and states.input_boolean.nathan_lamp_switch.state == "off" -%}
+#                   sonoffbr/cmnd/RfKey2
+#           {% endif %}
+#         payload: ''

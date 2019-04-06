@@ -9,44 +9,15 @@ columns: 10
 global_parameters:
   use_comma: 0
   precision: 1
-  use_hass_icon: 1
-clock:
-  widget_type: clock
-  widget_style: "font-size: 200%; background:blue;"
-  time_style: "color: yellow;"
-  date_style: "color: red;"
-dht_sensor_temperature:
-  widget_type: sensor
-  entity: sensor.dht_sensor_temperature
-  title: Computer Room Temperature
-dht_sensor_humidity:
-  widget_type: sensor
-  entity: sensor.dht_sensor_humidity
-  title: Computer Room Humidity
-bar_light:
-  widget_type: light
-  entity: light.bar_light
-  icon: mdi-white-balance-iridescent
-  title: Bar Light
-cpu_temp:
-  widget_type: sensor
-  entity: sensor.cpu_temp
-  title: CPU Temperature
-  icon: mdi-raspberrypi
 
-  
-reload:
-  widget_type: reload 
-  title: Reload
-  icon_active: fa-refresh
-  icon_inactive: fa-refresh
 
   
 layout:
+  - include: widgets
   - clock (2x1),dht_sensor_temperature, dht_sensor_humidity, sensor.load_1m, sensor.load_15m, cpu_temp,  sensor.disk_use_percent, sensor.memory_use_percent, sensor.disk_free
-  - spacer (2x1), input_boolean.front_door_lock, light.salt_lamp, light.lounge_curtain_light
-  - input_boolean.nathan_lamp_switch, bar_light, light.reading_light, switch.workshop_power
-  -
+  - spacer (2x1), input_boolean.front_door_lock, salt_lamp, lounge_curtain_light
+  - input_boolean.nathan_lamp_switch, bar_light, reading_light
+  - weather_map (2x1), workshop_power
   -
   -
   - reload

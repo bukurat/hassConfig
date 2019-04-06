@@ -1,0 +1,17 @@
+- alias: 'Start Water Feature'
+  initial_state: true
+  trigger:
+    platform: time
+    at: '09:00:00'
+  action:
+   service: homeassistant.turn_on
+   entity_id:  switch.kitchen_water_feature
+
+- alias: 'Stop Water Feature'
+  initial_state: true
+  trigger:
+    platform: time
+    at: '18:00:00'
+  action:
+    service: homeassistant.turn_off
+    entity_id:  switch.kitchen_water_feature

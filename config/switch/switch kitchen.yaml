@@ -1,0 +1,22 @@
+
+- platform: mqtt
+  name: Kitchen Bench Power
+  state_topic: "stat/sonoffS26-01/POWER"
+  command_topic: "cmnd/sonoffS26-01/POWER"
+  availability_topic: "tele/sonoffS26-01/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+
+- platform: mqtt
+  name: Kitchen Water Feature
+  state_topic: "stat/sonoffS26-04/POWER"
+  command_topic: "cmnd/sonoffS26-04/POWER"
+  availability_topic: "tele/sonoffS26-04/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
