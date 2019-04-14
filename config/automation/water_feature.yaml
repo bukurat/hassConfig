@@ -11,7 +11,7 @@
   initial_state: true
   trigger:
     platform: time
-    at: '18:00:00'
+    at: '19:30:00'
   action:
     service: homeassistant.turn_off
     entity_id:  switch.kitchen_water_feature
