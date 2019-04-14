@@ -147,3 +147,10 @@ weather_map:
   url_list:
  #   - https://embed.windy.com/embed2.html?lat=51.4768&lon=0&zoom=10&level=surface&overlay=rain&menu=&message=&marker=&forecast=12&calendar=now&location=coordinates&type=map&actualGrid=&metricWind=kt&metricTemp=%C2%B0C
     - https://www.wunderground.com/swf/pws_mini_rf_nc.swf?station=INEWSOUT289&freq=&units=metric&lang=EN type="application/x-shockwave-flash" width="290" height="130"
+
+battery:
+  widget_type: sensor
+  entity: sensor.battery
+  title: Laptop Battery
+
+
