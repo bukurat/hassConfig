@@ -26,12 +26,23 @@ config:
 discovery:
   ignore:
     - apple_tv
+
 # Show the introduction message on startup.
 #introduction:
 
+ios:
+
+tuya:
+  username: !secret tuya_username
+  password: !secret tuya_password
+  country_code: !secret tuya_country_code
 
 #Run some python scripts
 python_script:
+
+
+stream:
+
 
 recorder:
   purge_interval: 2
@@ -65,6 +76,8 @@ panel_iframe:
 ring:
   username: !secret ring_username
   password: !secret ring_password
+
+  
 
 # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
 #http:
