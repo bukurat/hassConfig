@@ -6,7 +6,7 @@ appdaemon:
   plugins:
     HASS:
       type: hass
-      ha_url: http://hass:8123
+      ha_url: http://pegasus.local:8123
       token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI4YWI2YWFmMzNiMDg0NTdlOWQzYTNjODc0YmZmZDg5NiIsImlhdCI6MTU1NDA5NjIwOCwiZXhwIjoxODY5NDU2MjA4fQ._DBk0P9A1BSSNnwJRuEhJsC8l2-YPP8Ph7UQRLwyzRM
 hadashboard:
   dash_url: http://192.168.19.6:5050
