@@ -67,10 +67,10 @@ cards:
         tap_action:
           action: toggle
 
-      - entity: switch.kitchen_tv
-        name: Kitchen TV
-        tap_action:
-          action: toggle
+      # - entity: switch.kitchen_tv
+      #   name: Kitchen TV
+      #   tap_action:
+      #     action: toggle
 
   - type: glance
     entities:
@@ -92,5 +92,6 @@ cards:
       - light.reading_light
       - light.headboard_light
       - switch.bedroom_3_power
-      - switch.kitchen_tv
+#      - switch.kitchen_tv
       - switch.kitchen_water_feature
+      - light.2107273784f3eb2fe326
