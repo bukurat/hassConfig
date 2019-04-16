@@ -30,6 +30,22 @@ lounge_curtain_light:
   entity: light.lounge_curtain_light
   title: Lounge Mood Lighting
 
+2107273784f3eb2fe326:
+  widget_type: light
+  entity: light.2107273784f3eb2fe326
+  title: Lounge Ambient 1
+  icon_on: mdi-floor-lamp
+  icon_off: mdi-floor-lamp
+  icon_style_active: "color: yellow"
+
+2107273784f3eb33a07d:
+  widget_type: light
+  entity:  light.2107273784f3eb33a07d
+  title: Lounge Ambient 2
+  icon_on: mdi-floor-lamp
+  icon_off: mdi-floor-lamp
+  icon_style_active: "color: yellow"  
+
 reading_light:
   widget_type: switch
   entity: light.reading_light
@@ -57,6 +73,7 @@ christmas_tree:
   entity: switch.christmas_tree
   title: christmas tree
   icon_on: fa-tree
+  inon_off: mdi-pine-tree
 
 bedroom_3_power:
   widget_type: switch
