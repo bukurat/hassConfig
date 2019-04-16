@@ -1,0 +1,48 @@
+- platform: mqtt
+  name: Office Ceiling Lamp
+  state_topic: "stat/sonoffKl-1/POWER"
+  command_topic: "cmnd/sonoffKl-1/POWER"
+  availability_topic: "tele/sonoffKl-1/LWT"
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  brightness_state_topic: "stat/sonoffKl-1/DIMMER"
+  brightness_value_template: "{{value_json.Dimmer}}"
+  brightness_command_topic: "cmnd/sonoffKl-1/DIMMER"
+  brightness_scale: 100
+  color_temp_command_topic: "cmnd/sonoffKl-1/CT"
+  qos: 1
+
+- platform: mqtt
+  name: Hall Light
+  state_topic: "stat/sonoffKl-2/POWER"
+  command_topic: "cmnd/sonoffKl-2/POWER"
+  availability_topic: "tele/sonoffKl-2/LWT"
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  brightness_state_topic: "stat/sonoffKl-2/DIMMER"
+  brightness_value_template: "{{value_json.Dimmer}}"
+  brightness_command_topic: "cmnd/sonoffKl-2/DIMMER"
+  brightness_scale: 100
+  color_temp_command_topic: "cmnd/sonoffKl-2/CT" 
+  qos: 1
+
+
+- platform: mqtt
+  name: Bedroom 2 Light
+  state_topic: "stat/sonoffKl-3/POWER"
+  command_topic: "cmnd/sonoffKl-3/POWER"
+  availability_topic: "tele/sonoffKl-3/LWT"
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  brightness_state_topic: "stat/sonoffKl-3/DIMMER"
+  brightness_value_template: "{{value_json.Dimmer}}"
+  brightness_command_topic: "cmnd/sonoffKl-3/DIMMER"
+  brightness_scale: 100
+  color_temp_command_topic: "cmnd/sonoffKl-3/CT" 
+  qos: 1
