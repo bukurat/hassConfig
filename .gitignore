@@ -36,3 +36,4 @@ production_auth.json
 apdconf/secrets.yaml
 apdconf/compiled/*
 *.code-workspace
+custom_components/hacs/*
