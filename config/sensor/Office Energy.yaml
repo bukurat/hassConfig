@@ -1,0 +1,65 @@
+
+## Office TV    
+- platform: mqtt
+  name: "Energy - Office TV"
+  state_topic: "tele/SW-K2/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Today"] }}'
+  unit_of_measurement: "kWh"
+- platform: mqtt
+  name: "TV Watts"
+  state_topic: "tele/SW-K2/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Power"] }}'
+  unit_of_measurement: "W"
+- platform: mqtt
+  name: "TV Voltage"
+  state_topic: "tele/SW-K2/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Voltage"] }}'
+  unit_of_measurement: "V"
+- platform: mqtt
+  name: "TV Current"
+  state_topic: "tele/SW-K2/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Current"] }}'
+  unit_of_measurement: "A"
+
+## Office Computer    
+- platform: mqtt
+  name: "Energy - Office Computer"
+  state_topic: "tele/SW-K3/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Today"] }}'
+  unit_of_measurement: "kWh"
+- platform: mqtt
+  name: "Computer Watts"
+  state_topic: "tele/SW-K3/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Power"] }}'
+  unit_of_measurement: "W"
+- platform: mqtt
+  name: "Computer Voltage"
+  state_topic: "tele/SW-K3/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Voltage"] }}'
+  unit_of_measurement: "V"
+- platform: mqtt
+  name: "Computer Current"
+  state_topic: "tele/SW-K3/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Current"] }}'
+  unit_of_measurement: "A"
+## Office Peripherals   
+- platform: mqtt
+  name: "Energy - Office Peripherals"
+  state_topic: "tele/sonoffpow3/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Today"] }}'
+  unit_of_measurement: "kWh"
+- platform: mqtt
+  name: "Peripherals Watts"
+  state_topic: "tele/sonoffpow3/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Power"] }}'
+  unit_of_measurement: "W"
+- platform: mqtt
+  name: "Peripherals Voltage"
+  state_topic: "tele/sonoffpow3/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Voltage"] }}'
+  unit_of_measurement: "V"
+- platform: mqtt
+  name: "Peripherals Current"
+  state_topic: "tele/sonoffpow3/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Current"] }}'
+  unit_of_measurement: "A"

@@ -1,0 +1,35 @@
+#Washing Machine
+- platform: mqtt
+  name: "Washer Signal"
+  state_topic: "tele/sonoffpow4/STATE"
+  value_template: "{{value_json['Wifi'].RSSI }}"
+  unit_of_measurement: "%"
+  device_class: signal_strength
+#Water Feature
+- platform: mqtt
+  name: "Water Feature"
+  state_topic: "tele/sonoffS26-04/STATE"
+  value_template: "{{value_json['Wifi'].RSSI }}"
+  unit_of_measurement: "%"
+  device_class: signal_strength
+#Office Computer
+- platform: mqtt
+  name: "Office Computer"
+  state_topic: "tele/SW-K3/STATE"
+  value_template: "{{value_json['Wifi'].RSSI }}"
+  unit_of_measurement: "%"
+  device_class: signal_strength
+#Office TV
+- platform: mqtt
+  name: "Office TV"
+  state_topic: "tele/SW-K2/STATE"
+  value_template: "{{value_json['Wifi'].RSSI }}"
+  unit_of_measurement: "%"
+  device_class: signal_strength
+#Office Computer Peripherals
+- platform: mqtt
+  name: "Office Peripherals"
+  state_topic: "tele/sonoffpow3/STATE"
+  value_template: "{{value_json['Wifi'].RSSI }}"
+  unit_of_measurement: "%"
+  device_class: signal_strength

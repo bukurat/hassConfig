@@ -1,9 +1,0 @@
-- platform: mqtt
-  name: 'Main Bedroom Window'
-  state_topic: 'home/MainBed'
-  device_class: window
-
-- platform: mqtt
-  name: 'Office Window'
-  state_topic: 'home/Office'
-  device_class: window

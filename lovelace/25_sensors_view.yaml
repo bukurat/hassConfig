@@ -2,13 +2,30 @@ title: sensors
 path: 25_sensors_view
 
 cards:
+#  - type: custom:compact-custom-header
   - type: glance
     entities:
-      - binary_sensor.office_window
-      - binary_sensor.main_bedroom_window
       - binary_sensor.hallway_motion
-      - binary_sensor.back_sliding_door
       - binary_sensor.garage_door_1
       - binary_sensor.garage_door_2
       - sensor.battery
       - sensor.ring_front_door_battery
+
+  - type: glance
+    entities:
+      -  sensor.cecilia_s_battery_level
+      -  sensor.cecilia_s_ipad_battery_level
+      -  sensor.cecilia_s_battery_state
+      -  sensor.cecilia_s_ipad_battery_state
+    
+  - type: glance
+    entities:
+      -  sensor.johns_iphone_battery_level
+      -  sensor.johns_ipad_battery_level
+      -  sensor.johns_iphone_battery_state
+      -  sensor.johns_ipad_battery_state
+
+  - type: glance
+    entities:
+      -  sensor.john_s_ipad_mini_battery_level
+      -  sensor.john_s_ipad_mini_battery_state

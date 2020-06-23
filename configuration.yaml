@@ -17,10 +17,12 @@ homeassistant:
 #default_config:
 # Enables the frontend
 frontend:
+  javascript_version: latest
+  themes: !include themes.yaml
 
 # Enables configuration UI
 config:
-
+mobile_app:
 
 # Discover some devices automatically
 discovery:
@@ -30,22 +32,17 @@ discovery:
 # Show the introduction message on startup.
 #introduction:
 
+
 ios:
 
-tuya:
-  username: !secret tuya_username
-  password: !secret tuya_password
-  country_code: !secret tuya_country_code
 
 #Run some python scripts
 python_script:
 
-
 stream:
 
-
 recorder:
-  purge_interval: 2
+#  purge_interval: 2  # Deprecated
   purge_keep_days: 30
   db_url: !secret mariadb_connection_url
 
@@ -65,34 +62,25 @@ logbook:
 # Enables a map showing the location of tracked devices
 map:
 
-#imbed stuff
+#imbed stuff in left panel
 panel_iframe:
   tasmoadmin:
     title: 'TasmoAdmin'
     url: 'http://192.168.19.6:9999'
     icon: mdi:home-automation
 
-#Ring doorbell
-ring:
-  username: !secret ring_username
-  password: !secret ring_password
-
-  
-
-# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-#http:
-#   base_url: example.duckdns.org:8123
-
-# Sensors
-#sensor:
-  # Weather prediction
-#  - platform: yr
 
 # Text to speech
 tts:
-  - platform: google
+  - platform: google_translate
+    language: 'en'
+    service_name: google_say
+    cache: false
 
 mqtt:
+
+   discovery: true
+   discovery_prefix: homeassistant
    broker: !secret docker_host
    port: 1883
    client_id: home-assistant-1
@@ -110,15 +98,16 @@ mqtt:
      payload: "Offline"
      qos: 1
      retain: true
-#GUI
 
+#GUI
 lovelace:
-  mode: yaml
+#  mode: yaml
 
 #components
 automation: !include_dir_merge_list config/automation
 binary_sensor: !include_dir_merge_list config/binary_sensor
 climate: !include_dir_merge_list config/climate
+cover: !include_dir_merge_list config/cover
 group: !include_dir_merge_named config/group
 input_boolean: !include_dir_merge_named config/input_boolean
 light: !include_dir_merge_list config/light
@@ -128,5 +117,4 @@ script: !include_dir_merge_named config/script
 sensor: !include_dir_merge_list config/sensor
 switch: !include_dir_merge_list config/switch
 weather: !include_dir_merge_list config/weather
-
-
+camera: !include_dir_merge_list config/camera

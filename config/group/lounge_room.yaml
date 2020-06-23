@@ -4,19 +4,25 @@ lounge_room_activities:
   entities:
   - group.lounge_room_entertainment
   - group.lounge_room_lights
+  - group.lounge_room_ceiling
   - input_boolean.front_door_lock
 
 lounge_room_lights:
   name: Lights
-  icon: mdi:lightbulb
+  icon: mdi:ceiling-light
   entities:
     - light.Salt_Lamp
-    - light.Lounge_Curtain_Light
+#    - light.Lounge_Curtain_Light
 
 lounge_room_entertainment:
   name: Entertainment
   icon: mdi:television
   entities:
-#    - media_player.loungeroom_ua55es7500
+    - media_player.loungeroom_ua55es7500
 #    - media_player.rxv500d_a0988a
-
+lounge_room_ceiling:
+  name: Ceiling Lights
+  entities:
+    - light.78643054c44f33b279aa
+    - light.26178518dc4f229a4273
+    - light.78643054c44f33b21e02

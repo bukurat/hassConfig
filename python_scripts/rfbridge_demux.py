@@ -1,8 +1,8 @@
 #'payload':['topic','state','retain']
 
 d = { 'D3276E':['Hall_Motion','ON','false'],
-      'BC3E0A':['Back_Door','ON','true'], #Closed
-      'BC3E0E':['Back_Door','OFF','true'],
+      'BC3E0E':['Back_Door','ON','true'], #Closed
+      'BC3E0A':['Back_Door','OFF','true'],
       '30D8A0':['sensor3','ON','false'],
       '86CC0F':['Power-A', 'ON', 'true'],
       '86CC0E':['Power_A', 'OFF', 'true'],
@@ -22,10 +22,10 @@ d = { 'D3276E':['Hall_Motion','ON','false'],
       '000002':['NPow2','OFF','true'],
       '00000D':['NPall','ON', 'true'],
       '00000C':['NPall','OFF','true'],
-      '84262E':['MainBed','ON','true'], # Closed
-      '842627':['MainBed','OFF','true'], # Open
-      '8B460A':['Office','ON','true'],
-      '8B460E':['Office','OFF','true'],
+      '842627':['MainBed','ON','true'], # Closed
+      '84262E':['MainBed','OFF','true'], # Open
+      '8B460E':['Office','ON','true'],
+      '8B460A':['Office','OFF','true'],
       'C9EC0A':['Garage_1','ON', 'true'],
       'C9EC0E':['Garage_1','OFF','true'],
       '0DAC0A':['Garage_2','ON','true'],

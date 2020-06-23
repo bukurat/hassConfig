@@ -1,42 +1,56 @@
-  - platform: mqtt
-    name: "Energy - Nathan"
-    state_topic: "tele/sonoffpow3/SENSOR"
-    value_template: '{{ value_json["ENERGY"]["Today"] }}'
-    unit_of_measurement: "kWh"
-  - platform: mqtt
-    name: "Power"
-    state_topic: "tele/sonoffpow3/SENSOR"
-    value_template: '{{ value_json["ENERGY"]["Power"] }}'
-    unit_of_measurement: "W"
-  - platform: mqtt
-    name: "Voltage"
-    state_topic: "tele/sonoffpow3/SENSOR"
-    value_template: '{{ value_json["ENERGY"]["Voltage"] }}'
-    unit_of_measurement: "V"
-  - platform: mqtt
-    name: "Current"
-    state_topic: "tele/sonoffpow3/SENSOR"
-    value_template: '{{ value_json["ENERGY"]["Current"] }}'
-    unit_of_measurement: "A"
+- platform: mqtt
+  name: "Energy - Nathan"
+  state_topic: "tele/sonoffpow3/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Today"] }}'
+  unit_of_measurement: "kWh"
+- platform: mqtt
+  name: "Power"
+  state_topic: "tele/sonoffpow3/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Power"] }}'
+  unit_of_measurement: "W"
+- platform: mqtt
+  name: "Voltage"
+  state_topic: "tele/sonoffpow3/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Voltage"] }}'
+  unit_of_measurement: "V"
+- platform: mqtt
+  name: "Current"
+  state_topic: "tele/sonoffpow3/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Current"] }}'
+  unit_of_measurement: "A"
     
-    
-  - platform: mqtt
-    name: "Energy - Washing Machine"
-    state_topic: "tele/sonoffpow4/SENSOR"
-    value_template: '{{ value_json["ENERGY"]["Today"] }}'
-    unit_of_measurement: "kWh"
-  - platform: mqtt
-    name: "Washer Power"
-    state_topic: "tele/sonoffpow4/SENSOR"
-    value_template: '{{ value_json["ENERGY"]["Power"] }}'
-    unit_of_measurement: "W"
-  - platform: mqtt
-    name: "Washer Voltage"
-    state_topic: "tele/sonoffpow4/SENSOR"
-    value_template: '{{ value_json["ENERGY"]["Voltage"] }}'
-    unit_of_measurement: "V"
-  - platform: mqtt
-    name: "Washer Current"
-    state_topic: "tele/sonoffpow4/SENSOR"
-    value_template: '{{ value_json["ENERGY"]["Current"] }}'
-    unit_of_measurement: "A"
+##Washing Machine
+- platform: mqtt
+  name: "Washer State"
+  state_topic: "hass/state/washer"
+  icon: mdi:washing-machine    
+- platform: mqtt
+  name: "Washer Energy Today"
+  state_topic: "tele/sonoffpow4/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Today"] }}'
+  unit_of_measurement: "kWh"
+- platform: mqtt
+  name: "Washer Energy Yesterday"
+  state_topic: "tele/sonoffpow4/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Yesterday"] }}'
+  unit_of_measurement: "kWh"
+
+- platform: mqtt
+  name: "Washer Watts"
+  icon: mdi:flash-circle
+  state_topic: "tele/sonoffpow4/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Power"] }}'
+  unit_of_measurement: "W"
+- platform: mqtt
+  name: "Washer Voltage"
+  icon: mdi:flash-circle
+  state_topic: "tele/sonoffpow4/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Voltage"] }}'
+  unit_of_measurement: "V"
+- platform: mqtt
+  name: "Washer Amps"
+  icon: mdi:flash-circle
+  state_topic: "tele/sonoffpow4/SENSOR"
+  value_template: '{{ value_json["ENERGY"]["Current"] }}'
+  unit_of_measurement: "A"
+

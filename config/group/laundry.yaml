@@ -1,0 +1,11 @@
+washerpanel:
+  name: Washer
+  entities:
+    - sensor.washer_state
+    - sensor.washer_voltage
+    - sensor.washer_watts
+    - sensor.washer_amps
+    - sensor.washer_energy_today
+    - sensor.washer_energy_yesterday
+    - sensor.washer_signal
+      

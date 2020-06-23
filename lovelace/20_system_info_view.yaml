@@ -3,15 +3,16 @@ icon: mdi:server
 path: 20_system_info_view
 #panel: true
 cards:
+#  - type: custom:compact-custom-header
   - type: sensor
     entity: sensor.disk_free
   - type: sensor
     entity: sensor.load_1m
   - type: sensor
-    entity: sensor.network_in_eth0
+    entity: sensor.network_out_enx00e04c6802f3
     icon: mdi:lan
   - type: sensor
-    entity: sensor.network_out_eth0
+    entity: sensor.network_in_enx00e04c6802f3
     icon: mdi:lan
   - type: sensor
     entity: sensor.cpu_speed
@@ -20,22 +21,22 @@ cards:
     entity: sensor.battery
     icon: mdi:battery
 
-  - type: sensor
-    entity: sensor.core0_temp
-    name: Core 0 Temp
-    graph: line
-  - type: sensor
-    entity: sensor.core1_temp
-    name: Core 1 Temp
-    graph: line
-  - type: sensor
-    entity: sensor.core2_temp
-    name: Core 2 Temp
-    graph: line
-  - type: sensor
-    entity: sensor.core3_temp
-    name: Core 3 Temp
-    graph: line
+  # - type: sensor
+  #   entity: sensor.core0_temp
+  #   name: Core 0 Temp
+  #   graph: line
+  # - type: sensor
+  #   entity: sensor.core1_temp
+  #   name: Core 1 Temp
+  #   graph: line
+  # - type: sensor
+  #   entity: sensor.core2_temp
+  #   name: Core 2 Temp
+  #   graph: line
+  # - type: sensor
+  #   entity: sensor.core3_temp
+  #   name: Core 3 Temp
+  #   graph: line
 
   # - type: history-graph
   #   entities:

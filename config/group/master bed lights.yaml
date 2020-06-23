@@ -1,0 +1,14 @@
+lightpanel:
+   name: Master Bedroom
+   entities:
+     - light.05200399bcddc2e11c52
+     - light.87083606d8bfc002224c
+     - group.master_bedroom_ceiling
+
+master_bedroom_ceiling:
+  name: Master Bedroom Ceiling Lights
+  entities:
+    - light.65036883ecfabcbea284
+    - light.65036883ecfabcbea39e
+    - light.65036883ecfabcb72a18
+  

@@ -1,0 +1,13 @@
+- platform: mqtt
+  name: 'Main Bedroom Window'
+  state_topic: 'home/MainBed'
+  state_open: "OFF"
+  state_closed: "ON"
+  device_class: window
+
+- platform: mqtt
+  name: 'Office Window'
+  state_topic: 'home/Office'
+  state_open: "OFF"
+  state_closed: "ON"
+  device_class: window

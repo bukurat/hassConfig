@@ -1,0 +1,26 @@
+# Garage door control
+- platform: mqtt
+  name: Garage Door 1
+  state_topic: "cmnd/doorstate-1/POWER1"
+  command_topic: "cmnd/sonoff-G1/POWER"
+  availability_topic: "tele/sonoff-G1/LWT"
+  qos: 1
+  payload_open: "ON"
+  payload_close: "ON"
+  state_open: "OFF"
+  state_closed: "ON"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+
+- platform: mqtt
+  name: Garage Door 2
+  state_topic: "cmnd/doorstate-2/POWER1"
+  command_topic: "cmnd/sonoff-G2/POWER"
+  availability_topic: "tele/sonoff-G2/LWT"
+  qos: 1
+  payload_open: "ON"
+  payload_close: "ON"
+  state_open: "OFF"
+  state_closed: "ON"
+  payload_available: "Online"
+  payload_not_available: "Offline"

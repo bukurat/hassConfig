@@ -1,6 +1,18 @@
 title: main
 icon: mdi:home-outline
+#panel: true
 cards:
+#   - type: custom:compact-custom-header
+#     main_config: true
+#     notification: true
+#     menu: true 
+# #    user_agent: john
+#     tabs: true
+#     options: show
+#     voice: false
+#     clock: notification
+#     clock_format: 12
+#     clock_am_pm: true
   - type: glance
     title: Lights
     show_name: true
@@ -40,6 +52,20 @@ cards:
            action: toggle
       - entity: switch.bedroom_3_power
         icon: mdi:xbox
+      - entity: light.office_ceiling_lamp
+        tap_action:
+          action: toggle
+        icon: mdi:ceiling-light
+      - entity:  light.bedroom_2_light
+        tap_action:
+          action: toggle
+        icon: mdi:ceiling-light
+      - entity:  light.hall_light
+        tap_action:
+          action: toggle
+        icon: mdi:ceiling-light
+
+
   - type: glance
     title: Power
     show_name: true
@@ -67,10 +93,31 @@ cards:
         tap_action:
           action: toggle
 
+      - entity: switch.office_tv
+        name: Office TV
+        icon: mdi:television
+        tap_action:
+          action: toggle
+
+      - entity:  switch.bedroom_1_tv
+        name: Bedroom TV
+        icon: mdi:television
+        tap_action:
+          action: toggle
+
       # - entity: switch.kitchen_tv
       #   name: Kitchen TV
       #   tap_action:
       #     action: toggle
+
+  - type: glance
+    title: Covers
+    entities:
+      - cover.garage_door_1
+      - cover.garage_door_2
+      - cover.back_sliding_door
+      - cover.office_window
+      - cover.main_bedroom_window
 
   - type: glance
     entities:
@@ -95,3 +142,4 @@ cards:
 #      - switch.kitchen_tv
       - switch.kitchen_water_feature
       - light.2107273784f3eb2fe326
+      - light.2107273784f3eb33a07d

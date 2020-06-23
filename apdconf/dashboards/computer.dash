@@ -5,7 +5,7 @@ title: Computer dashboard
 widget_dimensions: [120, 120]
 widget_size: [1, 1]
 widget_margins: [5, 5]
-columns: 10
+columns: 11
 global_parameters:
   use_comma: 0
   precision: 1
@@ -14,7 +14,7 @@ global_parameters:
   
 layout:
   - include: widgets
-  - clock (2x1),dht_sensor_temperature, dht_sensor_humidity, sensor.load_1m, sensor.load_15m, cpu_temp,  sensor.disk_use_percent, sensor.memory_use_percent, sensor.disk_free
+  - clock (2x1),temp_core0,temp_core1,temp_core2,temp_core3, load_1m, load_15m, disk_use, memory_use, disk_free
   - spacer (2x1), input_boolean.front_door_lock, salt_lamp, lounge_curtain_light
   - input_boolean.nathan_lamp_switch, bar_light, reading_light
   - weather_map (2x1), workshop_power

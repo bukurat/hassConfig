@@ -1,0 +1,10 @@
+title: Test
+#panel: true
+cards:
+  - type: vertical-stack
+    cards:
+    - type: glance
+ #    - type: custom:compact-custom-header
+ #     main_config: true
+#cards:
+     

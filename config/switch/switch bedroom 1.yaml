@@ -1,9 +1,9 @@
-# Bedroom 1 Lamp
+# Bedroom 1 TV
 - platform: mqtt
-  name: Bedroom 1 lamp
-  state_topic: "stat/sonoffs20-3/POWER"
-  command_topic: "cmnd/sonoffs20-3/POWER"
-  availability_topic: "tele/sonoffs20-3/LWT"
+  name: Master Bedroom TV
+  state_topic: "stat/SW-K1/POWER"
+  command_topic: "cmnd/SW-K1/POWER"
+  availability_topic: "tele/SW-K1/LWT"
   qos: 1
   payload_on: "ON"
   payload_off: "OFF"

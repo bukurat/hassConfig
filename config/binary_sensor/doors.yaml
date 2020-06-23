@@ -1,4 +1,0 @@
-- platform: mqtt
-  name: 'Back Sliding Door'
-  state_topic: 'home/Back_Door'
-  device_class: door

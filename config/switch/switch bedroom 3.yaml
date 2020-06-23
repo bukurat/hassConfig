@@ -1,14 +1,5 @@
-# Bedroom 1 Lamp
-- platform: mqtt
-  name: Bedroom 3 Power
-  state_topic: "stat/sonoffpow3/POWER"
-  command_topic: "cmnd/sonoffpow3/POWER"
-  availability_topic: "tele/sonoffpow3/LWT"
-  qos: 1
-  payload_on: "ON"
-  payload_off: "OFF"
-  payload_available: "Online"
-  payload_not_available: "Offline"
+# Bedroom 3  - Nathan
+
 
 - platform: mqtt
   name: Bed 3 Bedside light

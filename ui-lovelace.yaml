@@ -1,23 +1,7 @@
 title: Home
 resources:
-  - url: /local/custom-lovelace/card-tools.js?v=1
-    type: js
-  - url: /local/custom-lovelace/card-modder.js?v=1
-    type: js
-  - url: /local/custom-lovelace/monster-card.js?v=1
-    type: js
-  - url: /local/custom-lovelace/vertical-stack-in-card.js?v=0.1.2
-    type: js
-  - url: /local/custom-lovelace/lovelace-fullykiosk.js?v=1.1
-    type: js
-  - url: /local/custom-lovelace/lovelace-layout-card.js?v=1
-    type: js
-  - url: /local/kiosk-config.js
-    type: js
+  - url: /community/button-card/button-card.js
+    type: module
+  - url: /community/unused-card/unused-card.js
+    type: module
 
-views:
-  - !include lovelace/00_home_view.yaml
-  - !include lovelace/20_system_info_view.yaml
-  - !include lovelace/25_sensors_view.yaml
-  - !include lovelace/30_automations_view.yaml
-#  - !include lovelace/60_test_stuff_view.yaml

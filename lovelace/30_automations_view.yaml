@@ -3,6 +3,7 @@ path: 30_automations_view
 icon: mdi:home-automation
 id: automations
 cards:
+#- type: custom:compact-custom-header
 - type: custom:monster-card
   show_empty: false
   card:

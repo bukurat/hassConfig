@@ -1,0 +1,30 @@
+# fully kiosk on tablet
+- platform: rest
+  name: Lounge Touchpad
+  json_attributes:
+    - batteryLevel
+    - kioskMode
+    - screenBrightness
+    - motionDetectorState
+    - maintenanceMode
+    - appFreeMemory
+    - appUsedMemory
+    - totalFreeMemory
+    - totalUsedMemory
+    - hostname4
+    - ip4
+    - mac
+    - locationLatitude
+    - locationLongitude
+    - locationAltitude
+    - startUrl
+    - currentPage
+  resource: !secret lounge_tablet
+  value_template: '{{ value_json.isScreenOn }}'
+
+- platform: template
+  sensors:
+    office_touchpad_battery:
+      friendly_name: "Lounge Touchpad Battery"
+      unit_of_measurement: '%'
+      value_template: "{{ states.sensor.lounge_touchpad.attributes.batteryLevel }}"

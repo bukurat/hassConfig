@@ -11,9 +11,9 @@
     - type: load_5m
     - type: load_15m
     - type: network_in
-      arg: eth0
+      arg: enx00e04c6802f3
     - type: network_out
-      arg: eth0
+      arg: enx00e04c6802f3
 
 
 
@@ -23,30 +23,31 @@
 
 # This version should work on both stand alone and docker installs
 
-- platform: command_line
-  name: Core0 Temp
-  command: "cat /sys/devices/platform/coretemp.0/hwmon/hwmon0/temp2_input"
-  unit_of_measurement: "°C"
-  value_template: '{{ value | multiply(0.001) }}'
+# - platform: command_line
+#   name: Core0 Temp
+#   command: "cat /sys/devices/platform/coretemp.0/hwmon/hwmon0/temp2_input"
+#   unit_of_measurement: "°C"
+#   value_template: '{{ value | multiply(0.001) }}'
 
-- platform: command_line
-  name: Core1 Temp
-  command: "cat /sys/devices/platform/coretemp.0/hwmon/hwmon0/temp3_input"
-  unit_of_measurement: "°C"
-  value_template: '{{ value | multiply(0.001) }}'
+# - platform: command_line
+#   name: Core1 Temp
+#   command: "cat /sys/devices/platform/coretemp.0/hwmon/hwmon0/temp3_input"
+#   unit_of_measurement: "°C"
+#   value_template: '{{ value | multiply(0.001) }}'
 
-- platform: command_line
-  name: Core2 Temp
-  command: "cat /sys/devices/platform/coretemp.0/hwmon/hwmon0/temp4_input"
-  unit_of_measurement: "°C"
-  value_template: '{{ value | multiply(0.001) }}'
+# - platform: command_line
+#   name: Core2 Temp
+#   command: "cat /sys/devices/platform/coretemp.0/hwmon/hwmon0/temp4_input"
+#   unit_of_measurement: "°C"
+#   value_template: '{{ value | multiply(0.001) }}'
 
-- platform: command_line
-  name: Core3 Temp
-  command: "cat /sys/devices/platform/coretemp.0/hwmon/hwmon0/temp5_input"
-  unit_of_measurement: "°C"
-  value_template: '{{ value | multiply(0.001) }}'
+# - platform: command_line
+#   name: Core3 Temp
+#   command: "cat /sys/devices/platform/coretemp.0/hwmon/hwmon0/temp5_input"
+#   unit_of_measurement: "°C"
+#   value_template: '{{ value | multiply(0.001) }}'
 
 - platform: cpuspeed
 - platform: linux_battery
+  name: notebook battery
 

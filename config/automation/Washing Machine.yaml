@@ -1,0 +1,62 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+#  Washing Machine Start/Finish
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+- alias: 'Washer State - Start'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.washer_watts
+    above: 5
+    for:
+      seconds: 4
+# Make sure washer isn't already running and delaying between cycles - don't re-trigger and cause stopwatch reset
+  condition:
+    condition: template
+    value_template: "{{ states.sensor.washer_state.state != 'Washing' }}"
+  action:
+    - service: mqtt.publish
+      data:
+        topic: hass/state/washer
+        payload: 'Washing'
+        retain: 'true'
+- alias: 'Washer State - Idle'
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.washer_watts
+    below: 5
+    for:
+      minutes: 3
+  action:
+    - service: mqtt.publish
+      data:
+        topic: hass/state/washer
+        payload: 'Idle'
+        retain: 'true'
+
+- alias: 'Washer Finished'
+  trigger:
+    platform: state
+    entity_id: sensor.washer_state
+    from: 'Washing'
+    to: 'Idle'
+  condition:
+    condition: template
+    value_template: "{{ states.sensor.washer_state.state != 'Washing' }}"
+  action:
+    - service: media_player.volume_set
+      data:
+        entity_id:
+          - media_player.googlehome1307
+          - media_player.kitchen_display
+          - media_player.googlehome1346
+          - media_player.googlehome8310
+          - media_player.jbllinkview8082
+        volume_level: '0.50'
+    - service: tts.google_say
+      entity_id:
+        - media_player.googlehome1307
+        - media_player.kitchen_display
+        - media_player.googlehome1346
+        - media_player.googlehome8310
+        - media_player.jbllinkview8082
+      data_template:
+         message: "Washing is finished!"

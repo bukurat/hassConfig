@@ -18,6 +18,6 @@ layout:
   - include: widgets
   - clock (2x1), cpu_speed, disk_free,  load_1m
   - spacer (2x1), headboard_light, back_sliding_door, garage_door_1, garage_door_2
-  - input_boolean.front_door_lock, salt_lamp, lounge_curtain_light, bedroom_3_power, kitchen_bench_power,kitchen_water_feature,office_desk_lamp
-  - input_boolean.nathan_lamp_switch, bar_light, reading_light,cupboard_lamps, christmas_tree,workshop_power
-  - reload
+  -  salt_lamp,lounge_ceiling_lights,2107273784f3eb2fe326,2107273784f3eb33a07d,kitchen_bench_power,kitchen_water_feature
+  - input_boolean.nathan_lamp_switch, bar_light, reading_light,cupboard_lamps, computer_room_sp,workshop_power, washer_power
+  - reload, Office_TV

@@ -1,0 +1,6 @@
+- platform: mqtt
+  name: 'Back Sliding Door'
+  state_topic: 'home/Back_Door'
+  state_open: "OFF"
+  state_closed: "ON"
+  device_class: door

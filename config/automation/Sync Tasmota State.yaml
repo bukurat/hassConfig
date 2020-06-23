@@ -6,12 +6,16 @@
   action:
     - service: mqtt.publish
       data:
-        topic: "cmnd/sonoffs/state"
+        topic: cmnd/sonoffs/state
         payload: ""
     - service: mqtt.publish
       data:
-        topic: cmnd/sonoffs/POWER
+        topic: sonoffs/cmnd/state
         payload: ""
+#    - service: mqtt.publish
+#      data:
+#        topic: cmnd/sonoffs/POWER
+#        payload: ""
 #    - service: mqtt.publish
 #      data:
 #        topic: cmnd/sonoffs/POWER2

@@ -1,0 +1,32 @@
+# Office TV
+- platform: mqtt
+  name: Office TV
+  state_topic: "stat/SW-K2/POWER"
+  command_topic: "cmnd/SW-K2/POWER"
+  availability_topic: "tele/SW-K2/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+- platform: mqtt
+  name: Office Computer
+  state_topic: "stat/SW-K3/POWER"
+  command_topic: "cmnd/SW-K3/POWER"
+  availability_topic: "tele/SW-K3/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+
+- platform: mqtt
+  name: Office Peripherals
+  state_topic: "stat/sonoffpow3/POWER"
+  command_topic: "cmnd/sonoffpow3/POWER"
+  availability_topic: "tele/sonoffpow3/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
